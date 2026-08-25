@@ -1,6 +1,6 @@
 ## 项目简介
 
-基于 DMA 硬件（FPGA 采集卡）的《和平精英》外部内存读取研究项目。
+基于 DMA 硬件（FPGA 采集卡）的外部内存读取研究项目。
 
 - **技术栈**: C++20 Modules (.ixx)、DMA (MemProcFS / VMMDLL / leechcore / FTD3XX)、DirectX 11 Overlay、ImGui、PhysX 3
 - **目标进程**: `wgprojectm.exe`
