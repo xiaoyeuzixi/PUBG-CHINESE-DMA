@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{96d8c958-a92c-4287-9c42-feb82cc24eef}</ProjectGuid>
+    <RootNamespace>game</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>HP-DMA</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <AllProjectBMIsArePublic>true</AllProjectBMIsArePublic>
+    <ExternalIncludePath>$(ProjectDir)dma;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>$(ProjectDir)dma;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <AllProjectBMIsArePublic>true</AllProjectBMIsArePublic>
+    <ExternalIncludePath>$(ProjectDir)dma;$(ProjectDir)imgui;$(ProjectDir)imgui\backends;$(ProjectDir)PhysX-4.1\physx\include;$(ProjectDir)PhysX-4.1\pxshared\include;$(ExternalIncludePath)</ExternalIncludePath>
+    <LibraryPath>$(ProjectDir)dma;$(ProjectDir)PhysxLib;$(LibraryPath)</LibraryPath>
+    <AllProjectIncludesArePublic>true</AllProjectIncludesArePublic>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp23</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>leechcore.lib;vmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;PX_PHYSX_STATIC_LIB;PX_PHYSX_CHARACTER_STATIC_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp23</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <ScanSourceForModuleDependencies>true</ScanSourceForModuleDependencies>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>leechcore.lib;vmm.lib;d3d11.lib;Ws2_32.lib;PhysXCommon_static_64.lib;PhysXCooking_static_64.lib;PhysXExtensions_static_64.lib;PhysXFoundation_static_64.lib;PhysX_static_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="dx11_menu.ixx" />
+    <ClCompile Include="Engine\AController.ixx" />
+    <ClCompile Include="Engine\APawn.ixx" />
+    <ClCompile Include="Engine\APlayerCameraManager.ixx" />
+    <ClCompile Include="Engine\APlayerController.ixx" />
+    <ClCompile Include="Esp\dx11.ixx" />
+    <ClCompile Include="Esp\render.ixx" />
+    <ClCompile Include="gameixx\ASTExtraWeapon.ixx" />
+    <ClCompile Include="gameixx\AUAEPlayerController.ixx" />
+    <ClCompile Include="bm.ixx" />
+    <ClCompile Include="gameixx\AActorType.ixx" />
+    <ClCompile Include="Engine\ACharacter.ixx" />
+    <ClCompile Include="Engine\AActor.ixx" />
+    <ClCompile Include="Engine\CanvasMap.ixx" />
+    <ClCompile Include="Engine\DebugCanvasObject.ixx" />
+    <ClCompile Include="dma\dma.ixx" />
+    <ClCompile Include="Engine\Engine.ixx" />
+    <ClCompile Include="Engine\FName.ixx" />
+    <ClCompile Include="Engine\FString.ixx" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="gameixx\AUAECharacter.ixx" />
+    <ClCompile Include="imgui\backends\imgui_impl_dx11.cpp" />
+    <ClCompile Include="imgui\backends\imgui_impl_win32.cpp" />
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_demo.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="imgui\imgui_tables.cpp" />
+    <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="NetConfig\kmboxNet.cpp" />
+    <ClCompile Include="NetConfig\KmBox.cpp" />
+    <ClCompile Include="NetConfig\MoBox.cpp" />
+    <ClCompile Include="NetConfig\my_enc.cpp" />
+    <ClCompile Include="Offsets.ixx" />
+    <ClCompile Include="WeaponTranslation.ixx" />
+    <ClCompile Include="ItemTranslation.ixx" />
+    <ClCompile Include="Engine\TArray.ixx" />
+    <ClCompile Include="Engine\ULevel.ixx" />
+    <ClCompile Include="Engine\UGameInstance.ixx" />
+    <ClCompile Include="Engine\ULocalPlayer.ixx" />
+    <ClCompile Include="PhysX3\NpScene.ixx" />
+    <ClCompile Include="PhysX3\NpSenceArray.ixx" />
+    <ClCompile Include="PhysX3\NpShape.ixx" />
+    <ClCompile Include="PhysX3\Offsets_PhysX3.ixx" />
+    <ClCompile Include="PhysX3\PhysX3.ixx" />
+    <ClCompile Include="PhysX3\physx3Engine.ixx" />
+    <ClCompile Include="PhysX3\PhysX3Object.ixx" />
+    <ClCompile Include="PhysX3\physxLocal.ixx" />
+    <ClCompile Include="PhysX3\PxActor.ixx" />
+    <ClCompile Include="PhysX3\PxActorArray.ixx" />
+    <ClCompile Include="PhysX3\PxBase.ixx" />
+    <ClCompile Include="PhysX3\PxConvexMeshGeometry.ixx" />
+    <ClCompile Include="PhysX3\PxHeightFieldGeometry.ixx" />
+    <ClCompile Include="PhysX3\PxRigidActor.ixx" />
+    <ClCompile Include="PhysX3\PxRigidBody.ixx" />
+    <ClCompile Include="PhysX3\PxRigidStatic.ixx" />
+    <ClCompile Include="PhysX3\PxRigiDynamic.ixx" />
+    <ClCompile Include="PhysX3\PxTriangleMeshGeometry.ixx" />
+    <ClCompile Include="PhysX3\Struct_PhysX3.ixx" />
+    <ClCompile Include="Struct.ixx" />
+    <ClCompile Include="Engine\UObject.ixx" />
+    <ClCompile Include="Engine\USceneComponent.ixx" />
+    <ClCompile Include="Engine\USkeletalMeshComponent.ixx" />
+    <ClCompile Include="Engine\USkinnedMeshComponent.ixx" />
+    <ClCompile Include="Engine\UWorld.ixx" />
+    <ClCompile Include="Engine\UNetConnection.ixx" />
+    <ClCompile Include="Engine\UNetDriver.ixx" />
+    <ClCompile Include="Engine\UPlayer.ixx" />
+    <ClCompile Include="Engine\USkeletalMesh.ixx" />
+    <ClCompile Include="gameixx\UWeaponEntity.ixx" />
+    <ClCompile Include="gameixx\ASTExtraVehicleBase.ixx" />
+    <ClCompile Include="gameixx\UVehicleCommonComponent.ixx" />
+    <ClCompile Include="Registry.ixx" />
+    <ClCompile Include="InputDMA.ixx" />
+    <ClCompile Include="InputUtils.ixx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\backends\imgui_impl_dx11.h" />
+    <ClInclude Include="imgui\backends\imgui_impl_win32.h" />
+    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="imgui\imstb_rectpack.h" />
+    <ClInclude Include="imgui\imstb_textedit.h" />
+    <ClInclude Include="imgui\imstb_truetype.h" />
+    <ClInclude Include="NetConfig\HidTable.h" />
+    <ClInclude Include="NetConfig\kmboxNet.h" />
+    <ClInclude Include="NetConfig\my_enc.h" />
+    <ClInclude Include="PhysX-4.1\physx\include\PxPhysicsAPI.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

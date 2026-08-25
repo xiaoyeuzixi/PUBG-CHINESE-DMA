@@ -1,0 +1,23 @@
+# ===== 编译输出 =====
+x64/
+HP-DMA/x64/
+.vs/
+*.pdb
+*.obj
+*.iobj
+*.ipdb
+*.ilk
+*.log
+
+# ===== 超大二进制 (超过GitHub 100MB限制 / 可从压缩包恢复) =====
+model/model.bin
+PhysxLib/*.lib
+
+# ===== 运行时生成的日志与临时文件 =====
+aim_log.txt
+imgui.ini
+*.tmp
+
+# ===== 系统垃圾 =====
+Thumbs.db
+desktop.ini

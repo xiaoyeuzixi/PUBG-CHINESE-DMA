@@ -1,0 +1,3861 @@
+.版本 2
+
+.如果真 (地铁.显示物资)
+    ' --------------------------------传世武器--------------------------------------
+    .如果真 (物品代码 ＝ “BP_WEP_HYD_C” 或 物品代码 ＝ “BP_WEP_HYD_Pickup_C”)
+        返回内容 ＝ “火焰刀·维列”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “BP_WEP_HDD_C” 或 物品代码 ＝ “BP_WEP_HDD_Pickup_C”)
+        返回内容 ＝ “蝴蝶刀·冷锋”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “BP_WEP_SJG_C” 或 物品代码 ＝ “BP_WEP_HDD_Pickup_C”)
+        返回内容 ＝ “双截棍·神龙”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “BP_WEP_JXQT_C” 或 物品代码 ＝ “BP_WEP_JXQT_Pickup_C”)
+        返回内容 ＝ “拳套·破风”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “BP_WEP_TitanSword_C”)
+        返回内容 ＝ “大刀·危”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    ' --------------------------------金品变卖物--------------------------------------
+    .如果真 (物品代码 ＝ “Jintoukui_Pickup_C”)
+        返回内容 ＝ “精英纪念奖杯”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Jinlangquanzhang_Pickup_C”)
+        返回内容 ＝ “黄金狼头权杖”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Longtenruizhaojindiao_Pickup_C”)
+        返回内容 ＝ “龙腾瑞兆金雕”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Eagle_Pickup_C”)
+        返回内容 ＝ “黄金鹰形雕像”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Yushejinghuan_Pickup_C”)
+        返回内容 ＝ “玉蛇金环”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Qunlangbaoguan_Pickup_C”)
+        返回内容 ＝ “群狼宝冠”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “GoldenHorse_Basic_Pickup_C”)
+        返回内容 ＝ “马上有金”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Goldpen_Pickup_C”)
+        返回内容 ＝ “古董钢笔”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “GoldLighter_Pickup_C”)
+        返回内容 ＝ “黄金打火机”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    ' --------------------------------红色物资--------------------------------------
+
+    .如果真 (物品代码 ＝ “VolcanoLaserSystem_Pickup_C”)
+        返回内容 ＝ “观测激光系统”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Peisongjiqiren_Pickup_C”)
+        返回内容 ＝ “配送机器人”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Wurenji_Pickup_C”)
+        返回内容 ＝ “无人机”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Guangzijijiangbei_Pickup_C”)
+        返回内容 ＝ “光子鸡奖杯”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Yigenjintiao_Pickup_C”)
+        返回内容 ＝ “一根金条”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Router_Pickup_C”)
+        返回内容 ＝ “加密路由器”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “FrozenMech_Pickup_C”)
+        返回内容 ＝ “机械原件”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Jingmiyiqilantu_Pickup_C”)
+        返回内容 ＝ “精密仪器蓝图”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Shejituzhi_Pickup_C”)
+        返回内容 ＝ “设计图纸”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Zhenxiguqianbi_Pickup_C”)
+        返回内容 ＝ “珍稀古钱币”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “GoodsLv6Test_qingbao_C”)
+        返回内容 ＝ “勘察情报”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Qiqiaohexing_Pickup_C”)
+        返回内容 ＝ “奇巧核心”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Xianka_Pickup_C”)
+        返回内容 ＝ “显卡”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Zhizaotiguanjie_Pickup_C”)
+        返回内容 ＝ “智造体关节”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Niutouzhixie_Pickup_C”)
+        返回内容 ＝ “牛头智械”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Jiguanshu_Pickup_C”)
+        返回内容 ＝ “机关书”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Jingtou_Pickup_C”)
+        返回内容 ＝ “镜头”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Teqianmiling_Pickup_C”)
+        返回内容 ＝ “特遣密令”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “GPS_Pickup_C”)
+        返回内容 ＝ “定位装置”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Xiyoubaoshi_Pickup_C”)
+        返回内容 ＝ “稀有宝石”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Jijiahuolibujian_Pickup_C”)
+        返回内容 ＝ “爆发部件”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Jijianengyuanbujian_Pickup_C”)
+        返回内容 ＝ “能源部件”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “GoodsLv7Test_dianchi_C”)
+        返回内容 ＝ “能源电池”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Langyaxianglian_Pickup_C”)
+        返回内容 ＝ “狼牙项链”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Langyajiezhi_Pickup_C”)
+        返回内容 ＝ “狼牙戒指”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Gold_Goupai_Pickup_C”)
+        返回内容 ＝ “黄金狗牌”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “BloodDiamondBox_Pickup_C”)
+        返回内容 ＝ “南钻宝箱”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    ' --------------------------------粉色物资--------------------------------------
+    .如果真 (物品代码 ＝ “Tiangongchuanganqi_Pickup_C”)
+        返回内容 ＝ “天工传感器”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Qiqiaojiguan_Pickup_C”)
+        返回内容 ＝ “奇巧机关”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Mokuaihuadianchizu_Pickup_C ”)
+        返回内容 ＝ “模块电池组”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Tiangongtongxunqi_Pickup_C”)
+        返回内容 ＝ “天工通讯器”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Junyongdianchi_Pickup_C”)
+        返回内容 ＝ “军用电池”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Junyongdianluban_Pickup_C”)
+        返回内容 ＝ “金属探测器”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Heiyingxunzhang_Pickup_C”)
+        返回内容 ＝ “黑鹰勋章”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Jinlangdiaoxiang_Pickup_C”)
+        返回内容 ＝ “哈士奇雕像”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Shujuxinpian_Pickup_C”)
+        返回内容 ＝ “数据芯片”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Tanceqi_Pickup_C”)
+        返回内容 ＝ “气体检测仪”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Pingbandiannao_Pickup_C”)
+        返回内容 ＝ “平板电脑”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Bearing_Pickup_C”)
+        返回内容 ＝ “精密轴承”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “MilitaryRadio_Pickup_C”)
+        返回内容 ＝ “军用电台”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Mixin_Pickup_C”)
+        返回内容 ＝ “密信”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Coolant_Pickup_C”)
+        返回内容 ＝ “冷却剂”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Jijiazhuangjiapian_Pickup_C”)
+        返回内容 ＝ “装甲片”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Ziseshiguanyaoji_Pickup_C”)
+        返回内容 ＝ “试管药剂”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    ' --------------------------------金库密码卡--------------------------------------
+    .如果真 (物品代码 ＝ “GoodsLv7Test_keycard_black_C”)
+        返回内容 ＝ “金库黑卡”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “GoodsLv7Test_keycard_white_C”)
+        返回内容 ＝ “金库白卡”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “GoodsLv7Test_keycard_yellow_C”)
+        返回内容 ＝ “金库黄卡”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “GoodsLv7Test_keycard_red_C”)
+        返回内容 ＝ “金库红卡”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “GoodsLv7Test_keycard_green_C”)
+        返回内容 ＝ “金库绿卡”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    ' --------------------------------未鉴定品--------------------------------------
+    .如果真 (物品代码 ＝ “Weijiandingxianglu_Pickup_C”)
+        返回内容 ＝ “香炉”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Weijiandingdiaoke_Pickup_C”)
+        返回内容 ＝ “雕刻”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Weijiandingshuhua_Pickup_C”)
+        返回内容 ＝ “书画”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “Weijiandingcipan_Pickup_C”)
+        返回内容 ＝ “瓷盘”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (物品代码 ＝ “BP_EscapePhone_Pickup_C”)
+        返回内容 ＝ “撤离电话机”
+        返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+        返回 (真)
+    .如果真结束
+    .如果真 (地铁.头盔)
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet_Lv3_C”)
+            返回内容 ＝ “三级头”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        ' ------------------------- 四级头 ---------------------------
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet_Lv4_C”)
+            返回内容 ＝ “四级头”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet2_Lv4_C”)
+            返回内容 ＝ “四级头[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet3_Lv4_C”)
+            返回内容 ＝ “四级头[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet4_Lv4_C”)
+            返回内容 ＝ “四级头[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        ' ------------------------- 五级头 ---------------------------
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet_Lv5_C”)
+            返回内容 ＝ “五级头”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet2_Lv5_C”)
+            返回内容 ＝ “五级头[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet3_Lv5_C”)
+            返回内容 ＝ “五级头[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet4_Lv5_C”)
+            返回内容 ＝ “五级头[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        ' ------------------------- 六级头 ---------------------------
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet_Lv6_C”)
+            返回内容 ＝ “六级头”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet2_Lv6_C”)
+            返回内容 ＝ “六级头[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet3_Lv6_C”)
+            返回内容 ＝ “六级头[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet4_Lv6_C”)
+            返回内容 ＝ “六级头[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        ' ------------------------- 七级头 ---------------------------
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet_Lv7_C” 或 物品代码 ＝ “BP_E_Helmet_Lv7_C”)
+            返回内容 ＝ “七级头”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet2_Lv7_C” 或 物品代码 ＝ “BP_E_Helmet2_Lv7_C”)
+            返回内容 ＝ “七级头[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet3_Lv7_C” 或 物品代码 ＝ “BP_E_Helmet3_Lv7_C”)
+            返回内容 ＝ “七级头[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet4_Lv7_C” 或 物品代码 ＝ “BP_E_Helmet4_Lv7_C”)
+            返回内容 ＝ “七级头[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet_Gold_C” 或 物品代码 ＝ “BP_E_Helmet_Gold_C”)
+            返回内容 ＝ “七级头-金”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet2_Gold_C” 或 物品代码 ＝ “BP_E_Helmet2_Gold_C”)
+            返回内容 ＝ “七级头[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet3_Gold_C” 或 物品代码 ＝ “BP_E_Helmet3_Gold_C”)
+            返回内容 ＝ “七级头[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Helmet4_Gold_C” 或 物品代码 ＝ “BP_E_Helmet4_Gold_C”)
+            返回内容 ＝ “七级头[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.衣甲)
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor_Lv3_C”)
+            返回内容 ＝ “三级甲”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        ' ------------------------- 四级甲 ---------------------------
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor_Lv4_C”)
+            返回内容 ＝ “四级甲”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor2_Lv4_C”)
+            返回内容 ＝ “四级甲[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor3_Lv4_C”)
+            返回内容 ＝ “四级甲[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor4_Lv4_C”)
+            返回内容 ＝ “四级甲[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        ' ------------------------- 五级甲 ---------------------------
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor_Lv5_C”)
+            返回内容 ＝ “五级甲”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor2_Lv5_C”)
+            返回内容 ＝ “五级甲[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor3_Lv5_C”)
+            返回内容 ＝ “五级甲[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor4_Lv5_C”)
+            返回内容 ＝ “五级甲[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        ' ------------------------- 六级甲 ---------------------------
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor_Lv6_C”)
+            返回内容 ＝ “六级甲”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor2_Lv6_C”)
+            返回内容 ＝ “六级甲[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor3_Lv6_C”)
+            返回内容 ＝ “六级甲[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor4_Lv6_C”)
+            返回内容 ＝ “六级甲[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        ' ------------------------- 七级甲 ---------------------------
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor_Lv7_C” 或 物品代码 ＝ “BP_E_Armor_Lv7_C”)
+            返回内容 ＝ “七级甲”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor2_Lv7_C” 或 物品代码 ＝ “BP_E_Armor2_Lv7_C”)
+            返回内容 ＝ “七级甲[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor3_Lv7_C” 或 物品代码 ＝ “BP_E_Armor3_Lv7_C”)
+            返回内容 ＝ “七级甲[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor4_Lv7_C” 或 物品代码 ＝ “BP_E_Armor4_Lv7_C”)
+            返回内容 ＝ “七级甲[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor_Gold_C” 或 物品代码 ＝ “BP_E_Armor_Gold_C”)
+            返回内容 ＝ “七级甲-金”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor2_Gold_C” 或 物品代码 ＝ “BP_E_Armor2_Gold_C”)
+            返回内容 ＝ “七级甲[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor3_Gold_C” 或 物品代码 ＝ “BP_E_Armor3_Gold_C”)
+            返回内容 ＝ “七级甲[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Armor4_Gold_C” 或 物品代码 ＝ “BP_E_Armor4_Gold_C”)
+            返回内容 ＝ “七级甲[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+
+
+
+    .如果真结束
+    .如果真 (地铁.背包)
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag_Lv3_C”)
+            返回内容 ＝ “三级包”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        ' ------------------------- 四级包 ---------------------------
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag_Lv4_C”)
+            返回内容 ＝ “四级包”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag2_Lv4_C”)
+            返回内容 ＝ “四级包[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag3_Lv4_C”)
+            返回内容 ＝ “四级包[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag4_Lv4_C”)
+            返回内容 ＝ “四级包[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        ' ------------------------- 五级包 ---------------------------
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag_Lv5_C”)
+            返回内容 ＝ “五级包”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag2_Lv5_C”)
+            返回内容 ＝ “五级包[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag3_Lv5_C”)
+            返回内容 ＝ “五级包[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag4_Lv5_C”)
+            返回内容 ＝ “五级包[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        ' ------------------------- 六级包 ---------------------------
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag_Lv6_C”)
+            返回内容 ＝ “六级包”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag2_Lv6_C”)
+            返回内容 ＝ “六级包[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag3_Lv6_C”)
+            返回内容 ＝ “六级包[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag4_Lv6_C”)
+            返回内容 ＝ “六级包[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        ' ------------------------- 七级包 ---------------------------
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag_Lv7_C” 或 物品代码 ＝ “BP_E_Bag_Lv7_C”)
+            返回内容 ＝ “七级包”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag2_Lv7_C” 或 物品代码 ＝ “BP_E_Bag2_Lv7_C”)
+            返回内容 ＝ “七级包[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag3_Lv7_C” 或 物品代码 ＝ “BP_E_Bag3_Lv7_C”)
+            返回内容 ＝ “七级包[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag4_Lv7_C” 或 物品代码 ＝ “BP_E_Bag4_Lv7_C”)
+            返回内容 ＝ “七级包[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag_Gold_C” 或 物品代码 ＝ “BP_E_Bag_Gold_C”)
+            返回内容 ＝ “七级包-金”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag2_Gold_C” 或 物品代码 ＝ “BP_E_Bag2_Gold_C”)
+            返回内容 ＝ “七级包[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag3_Gold_C” 或 物品代码 ＝ “BP_E_Bag3_Gold_C”)
+            返回内容 ＝ “七级包[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “PickUp_BP_E_Bag4_Gold_C” 或 物品代码 ＝ “BP_E_Bag4_Gold_C”)  ' 加PickUp是地面物品。无PickUp是装备
+            返回内容 ＝ “七级包[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.战术倍镜)
+        .如果真 (物品代码 ＝ “BP_MZJ_SideRMR_Pickup_C”)
+            返回内容 ＝ “侧边瞄准镜”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MZJ_2X_Pickup_C”)
+            返回内容 ＝ “2倍镜”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MZJ_3X_Pickup_C”)
+            返回内容 ＝ “3倍镜”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MZJ_4X_Pickup_C”)
+            返回内容 ＝ “4倍镜”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MZJ_6X_Pickup_C”)
+            返回内容 ＝ “6倍镜”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MZJ_8X_Pickup_C”)
+            返回内容 ＝ “8倍镜”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MZJ_8X_Ballistics_Pickup_C”)
+            返回内容 ＝ “战术倍镜”
+            返回颜色 ＝ IMVEC4TORGBA (数据.高级物资)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+
+    ' --------------------------------武器物资------------------------------------------
+
+    .如果真 (地铁.ARX)
+        .如果真 (物品代码 ＝ “BP_Rifle_ARX200_5_C” 或 物品代码 ＝ “BP_Rifle_ARX200_Wrapper_5_C”)  ' 加Wrapper是地面物品。无Wrapper是手持
+            返回内容 ＝ “ARX[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ARX200_6_C” 或 物品代码 ＝ “BP_Rifle_ARX200_Wrapper_6_C”)
+            返回内容 ＝ “ARX[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ARX200_7_C” 或 物品代码 ＝ “BP_Rifle_ARX200_Wrapper_7_C”)
+            返回内容 ＝ “ARX[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ARX200_Eagle_C” 或 物品代码 ＝ “BP_Rifle_ARX200_Wrapper_Eagle_C”)
+            返回内容 ＝ “ARX[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ARX200_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_ARX200_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “ARX[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ARX200_Wolf_C” 或 物品代码 ＝ “BP_Rifle_ARX200_Wrapper_Wolf_C”)
+            返回内容 ＝ “ARX[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ARX200_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_ARX200_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “ARX[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ARX200_XuanYuan_2_C” 或 物品代码 ＝ “BP_Rifle_ARX200_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “ARX[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ARX200_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_ARX200_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “ARX[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.AKM)
+        .如果真 (物品代码 ＝ “BP_Rifle_AKM_5_C” 或 物品代码 ＝ “BP_Rifle_AKM_Wrapper_5_C”)
+            返回内容 ＝ “AKM[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AKM_6_C” 或 物品代码 ＝ “BP_Rifle_AKM_Wrapper_6_C”)
+            返回内容 ＝ “AKM[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AKM_7_C” 或 物品代码 ＝ “BP_Rifle_AKM_Wrapper_7_C”)
+            返回内容 ＝ “AKM[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AKM_Eagle_C” 或 物品代码 ＝ “BP_Rifle_AKM_Wrapper_Eagle_C”)
+            返回内容 ＝ “AKM[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AKM_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_AKM_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “AKM[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AKM_Wolf_C” 或 物品代码 ＝ “BP_Rifle_AKM_Wrapper_Wolf_C”)
+            返回内容 ＝ “AKM[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AKM_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_AKM_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “AKM[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AKM_XuanYuan_2_C” 或 物品代码 ＝ “BP_Rifle_AKM_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “AKM[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AKM_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_AKM_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “AKM[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.M416)
+        .如果真 (物品代码 ＝ “BP_Rifle_M416_5_C” 或 物品代码 ＝ “BP_Rifle_M416_Wrapper_5_C”)
+            返回内容 ＝ “M416[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M416_6_C” 或 物品代码 ＝ “BP_Rifle_M416_Wrapper_6_C”)
+            返回内容 ＝ “M416[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M416_7_C” 或 物品代码 ＝ “BP_Rifle_M416_Wrapper_7_C”)
+            返回内容 ＝ “M416[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M416_Eagle_C” 或 物品代码 ＝ “BP_Rifle_M416_Wrapper_Eagle_C”)
+            返回内容 ＝ “M416[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M416_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_M416_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “M416[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M416_Wolf_C” 或 物品代码 ＝ “BP_Rifle_M416_Wrapper_Wolf_C”)
+            返回内容 ＝ “M416[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M416_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_M416_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “M416[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M416_XuanYuan_2_C” 或 物品代码 ＝ “BP_Rifle_M416_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “M416[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M416_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_M416_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “M416[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.M16A4)
+        .如果真 (物品代码 ＝ “BP_Rifle_M16A4_5_C” 或 物品代码 ＝ “BP_Rifle_M16A4_Wrapper_5_C”)
+            返回内容 ＝ “M16A4[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M16A4_6_C” 或 物品代码 ＝ “BP_Rifle_M16A4_Wrapper_6_C”)
+            返回内容 ＝ “M16A4[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M16A4_7_C” 或 物品代码 ＝ “BP_Rifle_M16A4_Wrapper_7_C”)
+            返回内容 ＝ “M16A4[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M16A4_Eagle_C” 或 物品代码 ＝ “BP_Rifle_M16A4_Wrapper_Eagle_C”)
+            返回内容 ＝ “M16A4[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M16A4_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_M16A4_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “M16A4[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M16A4_Wolf_C” 或 物品代码 ＝ “BP_Rifle_M16A4_Wrapper_Wolf_C”)
+            返回内容 ＝ “M16A4[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M16A4_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_M16A4_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “M16A4[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M16A4_XuanYuan_2_C” 或 物品代码 ＝ “BP_Rifle_M16A4_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “M16A4[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M16A4_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_M16A4_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “M16A4[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.SCARL)
+        .如果真 (物品代码 ＝ “BP_Rifle_SCAR_5_C” 或 物品代码 ＝ “BP_Rifle_SCAR_Wrapper_5_C”)
+            返回内容 ＝ “SCARL[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_SCAR_6_C” 或 物品代码 ＝ “BP_Rifle_SCAR_Wrapper_6_C”)
+            返回内容 ＝ “SCARL[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_SCAR_7_C” 或 物品代码 ＝ “BP_Rifle_SCAR_Wrapper_7_C”)
+            返回内容 ＝ “SCARL[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_SCAR_Eagle_C” 或 物品代码 ＝ “BP_Rifle_SCAR_Wrapper_Eagle_C”)
+            返回内容 ＝ “SCARL[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_SCAR_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_SCAR_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “SCARL[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_SCAR_Wolf_C” 或 物品代码 ＝ “BP_Rifle_SCAR_Wrapper_Wolf_C”)
+            返回内容 ＝ “SCARL[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_SCAR_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_SCAR_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “SCARL[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_SCAR_XuanYuan_2_C” 或 物品代码 ＝ “BP_Rifle_SCAR_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “SCARL[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_SCAR_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_SCAR_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “SCARL[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.QBZ)
+        .如果真 (物品代码 ＝ “BP_Rifle_QBZ_5_C” 或 物品代码 ＝ “BP_Rifle_QBZ_Wrapper_5_C”)
+            返回内容 ＝ “QBZ[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_QBZ_6_C” 或 物品代码 ＝ “BP_Rifle_QBZ_Wrapper_6_C”)
+            返回内容 ＝ “QBZ[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_QBZ_7_C” 或 物品代码 ＝ “BP_Rifle_QBZ_Wrapper_7_C”)
+            返回内容 ＝ “QBZ[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_QBZ_Eagle_C” 或 物品代码 ＝ “BP_Rifle_QBZ_Wrapper_Eagle_C”)
+            返回内容 ＝ “QBZ[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_QBZ_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_QBZ_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “QBZ[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_QBZ_Wolf_C” 或 物品代码 ＝ “BP_Rifle_QBZ_Wrapper_Wolf_C”)
+            返回内容 ＝ “QBZ[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_QBZ_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_QBZ_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “QBZ[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_QBZ_XuanYuan_2_C” 或 物品代码 ＝ “BP_Rifle_QBZ_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “QBZ[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_QBZ_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_QBZ_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “QBZ[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.G36C)
+        .如果真 (物品代码 ＝ “BP_Rifle_G36_5_C” 或 物品代码 ＝ “BP_Rifle_G36_Wrapper_5_C”)
+            返回内容 ＝ “G36[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_G36_6_C” 或 物品代码 ＝ “BP_Rifle_G36_Wrapper_6_C”)
+            返回内容 ＝ “G36[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_G36_7_C” 或 物品代码 ＝ “BP_Rifle_G36_Wrapper_7_C”)
+            返回内容 ＝ “G36[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_G36_Eagle_C” 或 物品代码 ＝ “BP_Rifle_G36_Wrapper_Eagle_C”)
+            返回内容 ＝ “G36[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_G36_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_G36_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “G36[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_G36_Wolf_C” 或 物品代码 ＝ “BP_Rifle_G36_Wrapper_Wolf_C”)
+            返回内容 ＝ “G36[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_G36_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_G36_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “G36[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_G36_XuanYuan_2_C” 或 物品代码 ＝ “BP_Rifle_G36_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “G36[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_G36_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_G36_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “G36[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.M762)
+        .如果真 (物品代码 ＝ “BP_Rifle_M762_5_C” 或 物品代码 ＝ “BP_Rifle_M762_Wrapper_5_C”)
+            返回内容 ＝ “M762[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M762_6_C” 或 物品代码 ＝ “BP_Rifle_M762_Wrapper_6_C”)
+            返回内容 ＝ “M762[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M762_7_C” 或 物品代码 ＝ “BP_Rifle_M762_Wrapper_7_C”)
+            返回内容 ＝ “M762[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M762_Eagle_C” 或 物品代码 ＝ “BP_Rifle_M762_Wrapper_Eagle_C”)
+            返回内容 ＝ “M762[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M762_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_M762_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “M762[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M762_Wolf_C” 或 物品代码 ＝ “BP_Rifle_M762_Wrapper_Wolf_C”)
+            返回内容 ＝ “M762[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M762_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_M762_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “M762[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M762_XuanYuan_2_C” 或 物品代码 ＝ “BP_Rifle_M762_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “M762[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M762_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_M762_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “M762[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.GROZA)
+        .如果真 (物品代码 ＝ “BP_Rifle_Groza_5_C” 或 物品代码 ＝ “BP_Rifle_Groza_Wrapper_5_C”)
+            返回内容 ＝ “Groza[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Groza_6_C” 或 物品代码 ＝ “BP_Rifle_Groza_Wrapper_6_C”)
+            返回内容 ＝ “Groza[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Groza_7_C” 或 物品代码 ＝ “BP_Rifle_Groza_Wrapper_7_C”)
+            返回内容 ＝ “Groza[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Groza_Eagle_C” 或 物品代码 ＝ “BP_Rifle_Groza_Wrapper_Eagle_C”)
+            返回内容 ＝ “Groza[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Groza_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_Groza_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “Groza[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Groza_Wolf_C” 或 物品代码 ＝ “BP_Rifle_Groza_Wrapper_Wolf_C”)
+            返回内容 ＝ “Groza[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Groza_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_Groza_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “Groza[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Groza_XuanYuan_2_C” 或 物品代码 ＝ “BP_Rifle_Groza_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “Groza[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Groza_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_Groza_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “Groza[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+
+    .如果真结束
+    .如果真 (地铁.AUG)
+        .如果真 (物品代码 ＝ “BP_Rifle_AUG_5_C” 或 物品代码 ＝ “BP_Rifle_AUG_Wrapper_5_C”)
+            返回内容 ＝ “AUG[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AUG_6_C” 或 物品代码 ＝ “BP_Rifle_AUG_Wrapper_6_C”)
+            返回内容 ＝ “AUG[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AUG_7_C” 或 物品代码 ＝ “BP_Rifle_AUG_Wrapper_7_C”)
+            返回内容 ＝ “AUG[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AUG_Eagle_C” 或 物品代码 ＝ “BP_Rifle_AUG_Wrapper_Eagle_C”)
+            返回内容 ＝ “AUG[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AUG_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_AUG_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “AUG[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AUG_Wolf_C” 或 物品代码 ＝ “BP_Rifle_AUG_Wrapper_Wolf_C”)
+            返回内容 ＝ “AUG[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AUG_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_AUG_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “AUG[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AUG_XuanYuan_2_C” 或 物品代码 ＝ “BP_Rifle_AUG_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “AUG[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AUG_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_AUG_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “AUG[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.Mk47)
+        .如果真 (物品代码 ＝ “BP_Rifle_Mk47_5_C” 或 物品代码 ＝ “BP_Rifle_Mk47_Wrapper_5_C”)
+            返回内容 ＝ “Mk47[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Mk47_6_C” 或 物品代码 ＝ “BP_Rifle_Mk47_Wrapper_6_C”)
+            返回内容 ＝ “Mk47[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Mk47_7_C” 或 物品代码 ＝ “BP_Rifle_Mk47_Wrapper_7_C”)
+            返回内容 ＝ “Mk47[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Mk47_Eagle_C” 或 物品代码 ＝ “BP_Rifle_Mk47_Wrapper_Eagle_C”)
+            返回内容 ＝ “Mk47[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Mk47_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_Mk47_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “Mk47[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Mk47_Wolf_C” 或 物品代码 ＝ “BP_Rifle_Mk47_Wrapper_Wolf_C”)
+            返回内容 ＝ “Mk47[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Mk47_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_Mk47_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “Mk47[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Mk47_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_Mk47_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “Mk47[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Mk47_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_Mk47_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “Mk47[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.Famas)
+        .如果真 (物品代码 ＝ “BP_Rifle_Famas_5_C” 或 物品代码 ＝ “BP_Rifle_Famas_Wrapper_5_C”)
+            返回内容 ＝ “Famas[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Famas_6_C” 或 物品代码 ＝ “BP_Rifle_Famas_Wrapper_6_C”)
+            返回内容 ＝ “Famas[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Famas_7_C” 或 物品代码 ＝ “BP_Rifle_Famas_Wrapper_7_C”)
+            返回内容 ＝ “Famas[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Famas_Eagle_C” 或 物品代码 ＝ “BP_Rifle_Famas_Wrapper_Eagle_C”)
+            返回内容 ＝ “Famas[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Famas_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_Famas_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “Famas[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Famas_Wolf_C” 或 物品代码 ＝ “BP_Rifle_Famas_Wrapper_Wolf_C”)
+            返回内容 ＝ “Famas[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Famas_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_Famas_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “Famas[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Famas_XuanYuan_2_C” 或 物品代码 ＝ “BP_Rifle_Famas_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “Famas[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_Famas_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_Famas_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “Famas[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.ACE32)
+        .如果真 (物品代码 ＝ “BP_Rifle_ACE32_5_C” 或 物品代码 ＝ “BP_Rifle_ACE32_Wrapper_5_C”)
+            返回内容 ＝ “ACE32[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ACE32_6_C” 或 物品代码 ＝ “BP_Rifle_ACE32_Wrapper_6_C”)
+            返回内容 ＝ “ACE32[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ACE32_7_C” 或 物品代码 ＝ “BP_Rifle_ACE32_Wrapper_7_C”)
+            返回内容 ＝ “ACE32[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ACE32_Eagle_C” 或 物品代码 ＝ “BP_Rifle_ACE32_Wrapper_Eagle_C”)
+            返回内容 ＝ “ACE32[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ACE32_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_ACE32_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “ACE32[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ACE32_Wolf_C” 或 物品代码 ＝ “BP_Rifle_ACE32_Wrapper_Wolf_C”)
+            返回内容 ＝ “ACE32[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ACE32_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_ACE32_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “ACE32[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ACE32_XuanYuan_2_C” 或 物品代码 ＝ “BP_Rifle_ACE32_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “ACE32[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_ACE32_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_ACE32_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “ACE32[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.蜜罐)
+        .如果真 (物品代码 ＝ “BP_Rifle_HoneyBadger_5_C” 或 物品代码 ＝ “BP_Rifle_HoneyBadger_Wrapper_5_C”)
+            返回内容 ＝ “蜜罐[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_HoneyBadger_6_C” 或 物品代码 ＝ “BP_Rifle_HoneyBadger_Wrapper_6_C”)
+            返回内容 ＝ “蜜罐[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_HoneyBadger_7_C” 或 物品代码 ＝ “BP_Rifle_HoneyBadger_Wrapper_7_C”)
+            返回内容 ＝ “蜜罐[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_HoneyBadger_Eagle_C” 或 物品代码 ＝ “BP_Rifle_HoneyBadger_Wrapper_Eagle_C”)
+            返回内容 ＝ “蜜罐[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_HoneyBadger_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_HoneyBadger_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “蜜罐[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_HoneyBadger_Wolf_C” 或 物品代码 ＝ “BP_Rifle_HoneyBadger_Wrapper_Wolf_C”)
+            返回内容 ＝ “蜜罐[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_HoneyBadger_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_HoneyBadger_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “蜜罐[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_HoneyBadger_XuanYuan_2_C” 或 物品代码 ＝ “BP_Rifle_HoneyBadger_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “蜜罐[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_HoneyBadger_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_HoneyBadger_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “蜜罐[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.M417)
+        .如果真 (物品代码 ＝ “BP_Rifle_M417_5_C” 或 物品代码 ＝ “BP_Rifle_M417_Wrapper_5_C”)
+            返回内容 ＝ “M417[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M417_6_C” 或 物品代码 ＝ “BP_Rifle_M417_Wrapper_6_C”)
+            返回内容 ＝ “M417[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M417_7_C” 或 物品代码 ＝ “BP_Rifle_M417_Wrapper_7_C”)
+            返回内容 ＝ “M417[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M417_Eagle_C” 或 物品代码 ＝ “BP_Rifle_M417_Wrapper_Eagle_C”)
+            返回内容 ＝ “M417[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M417_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_M417_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “M417[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M417_Wolf_C” 或 物品代码 ＝ “BP_Rifle_M417_Wrapper_Wolf_C”)
+            返回内容 ＝ “M417[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M417_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_M417_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “M417[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M417_XuanYuan_2_C” 或 物品代码 ＝ “BP_Rifle_M417_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “M417[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_M417_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_M417_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “M417[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.Kar98k)
+        .如果真 (物品代码 ＝ “BP_Sniper_Kar98k_5_C” 或 物品代码 ＝ “BP_Sniper_Kar98k_Wrapper_5_C”)
+            返回内容 ＝ “Kar98k[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Kar98k_6_C” 或 物品代码 ＝ “BP_Sniper_Kar98k_Wrapper_6_C”)
+            返回内容 ＝ “Kar98k[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Kar98k_7_C” 或 物品代码 ＝ “BP_Sniper_Kar98k_Wrapper_7_C”)
+            返回内容 ＝ “Kar98k[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Kar98k_Eagle_C” 或 物品代码 ＝ “BP_Sniper_Kar98k_Wrapper_Eagle_C”)
+            返回内容 ＝ “Kar98k[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Kar98k_XuanYuan_C” 或 物品代码 ＝ “BP_Sniper_Kar98k_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “Kar98k[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Kar98k_Wolf_C” 或 物品代码 ＝ “BP_Sniper_Kar98k_Wrapper_Wolf_C”)
+            返回内容 ＝ “Kar98k[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Kar98k_Eagle_2_C” 或 物品代码 ＝ “BP_Sniper_Kar98k_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “Kar98k[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Kar98k_XuanYuan_2_C” 或 物品代码 ＝ “BP_Sniper_Kar98k_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “Kar98k[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Kar98k_Wolf_2_C” 或 物品代码 ＝ “BP_Sniper_Kar98k_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “Kar98k[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.Mini14)
+        .如果真 (物品代码 ＝ “BP_Sniper_Mini14_5_C” 或 物品代码 ＝ “BP_Sniper_Mini14_Wrapper_5_C”)
+            返回内容 ＝ “Mini14[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mini14_6_C” 或 物品代码 ＝ “BP_Sniper_Mini14_Wrapper_6_C”)
+            返回内容 ＝ “Mini14[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mini14_7_C” 或 物品代码 ＝ “BP_Sniper_Mini14_Wrapper_7_C”)
+            返回内容 ＝ “Mini14[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mini14_Eagle_C” 或 物品代码 ＝ “BP_Sniper_Mini14_Wrapper_Eagle_C”)
+            返回内容 ＝ “Mini14[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mini14_XuanYuan_C” 或 物品代码 ＝ “BP_Sniper_Mini14_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “Mini14[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mini14_Wolf_C” 或 物品代码 ＝ “BP_Sniper_Mini14_Wrapper_Wolf_C”)
+            返回内容 ＝ “Mini14[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mini14_Eagle_2_C” 或 物品代码 ＝ “BP_Sniper_Mini14_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “Mini14[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mini14_XuanYuan_2_C” 或 物品代码 ＝ “BP_Sniper_Mini14_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “Mini14[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mini14_Wolf_2_C” 或 物品代码 ＝ “BP_Sniper_Mini14_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “Mini14[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.SKS)
+        .如果真 (物品代码 ＝ “BP_Sniper_SKS_5_C” 或 物品代码 ＝ “BP_Sniper_SKS_Wrapper_5_C”)
+            返回内容 ＝ “SKS[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SKS_6_C” 或 物品代码 ＝ “BP_Sniper_SKS_Wrapper_6_C”)
+            返回内容 ＝ “SKS[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SKS_7_C” 或 物品代码 ＝ “BP_Sniper_SKS_Wrapper_7_C”)
+            返回内容 ＝ “SKS[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SKS_Eagle_C” 或 物品代码 ＝ “BP_Sniper_SKS_Wrapper_Eagle_C”)
+            返回内容 ＝ “SKS[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SKS_XuanYuan_C” 或 物品代码 ＝ “BP_Sniper_SKS_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “SKS[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SKS_Wolf_C” 或 物品代码 ＝ “BP_Sniper_SKS_Wrapper_Wolf_C”)
+            返回内容 ＝ “SKS[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SKS_Eagle_2_C” 或 物品代码 ＝ “BP_Sniper_SKS_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “SKS[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SKS_XuanYuan_2_C” 或 物品代码 ＝ “BP_Sniper_SKS_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “SKS[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SKS_Wolf_2_C” 或 物品代码 ＝ “BP_Sniper_SKS_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “SKS[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.M24)
+        .如果真 (物品代码 ＝ “BP_Sniper_M24_5_C” 或 物品代码 ＝ “BP_Sniper_M24_Wrapper_5_C”)
+            返回内容 ＝ “M24[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M24_6_C” 或 物品代码 ＝ “BP_Sniper_M24_Wrapper_6_C”)
+            返回内容 ＝ “M24[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M24_7_C” 或 物品代码 ＝ “BP_Sniper_M24_Wrapper_7_C”)
+            返回内容 ＝ “M24[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M24_Eagle_C” 或 物品代码 ＝ “BP_Sniper_M24_Wrapper_Eagle_C”)
+            返回内容 ＝ “M24[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M24_XuanYuan_C” 或 物品代码 ＝ “BP_Sniper_M24_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “M24[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M24_Wolf_C” 或 物品代码 ＝ “BP_Sniper_M24_Wrapper_Wolf_C”)
+            返回内容 ＝ “M24[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M24_Eagle_2_C” 或 物品代码 ＝ “BP_Sniper_M24_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “M24[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M24_XuanYuan_2_C” 或 物品代码 ＝ “BP_Sniper_M24_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “M24[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M24_Wolf_2_C” 或 物品代码 ＝ “BP_Sniper_M24_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “M24[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.AS50)
+        .如果真 (物品代码 ＝ “BP_Rifle_AS50_5_C” 或 物品代码 ＝ “BP_Rifle_AS50_Wrapper_5_C”)  ' 加Wrapper是地面物品。无Wrapper是手持
+            返回内容 ＝ “AS50[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AS50_6_C” 或 物品代码 ＝ “BP_Rifle_AS50_Wrapper_6_C”)
+            返回内容 ＝ “AS50[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AS50_7_C” 或 物品代码 ＝ “BP_Rifle_AS50_Wrapper_7_C”)
+            返回内容 ＝ “AS50[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AS50_Eagle_C” 或 物品代码 ＝ “BP_Rifle_AS50_Wrapper_Eagle_C”)
+            返回内容 ＝ “AS50[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AS50_XuanYuan_C” 或 物品代码 ＝ “BP_Rifle_AS50_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “AS50[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AS50_Wolf_C” 或 物品代码 ＝ “BP_Rifle_AS50_Wrapper_Wolf_C”)
+            返回内容 ＝ “AS50[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AS50_Eagle_2_C” 或 物品代码 ＝ “BP_Rifle_AS50_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “AS50[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AS50_XuanYuan_2_C” 或 物品代码 ＝ “BP_Rifle_AS50_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “AS50[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Rifle_AS50_Wolf_2_C” 或 物品代码 ＝ “BP_Rifle_AS50_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “AS50[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.VSS)
+        .如果真 (物品代码 ＝ “BP_Sniper_VSS_5_C” 或 物品代码 ＝ “BP_Sniper_VSS_Wrapper_5_C”)
+            返回内容 ＝ “VSS[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_VSS_6_C” 或 物品代码 ＝ “BP_Sniper_VSS_Wrapper_6_C”)
+            返回内容 ＝ “VSS[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_VSS_7_C” 或 物品代码 ＝ “BP_Sniper_VSS_Wrapper_7_C”)
+            返回内容 ＝ “VSS[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_VSS_Eagle_C” 或 物品代码 ＝ “BP_Sniper_VSS_Wrapper_Eagle_C”)
+            返回内容 ＝ “VSS[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_VSS_XuanYuan_C” 或 物品代码 ＝ “BP_Sniper_VSS_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “VSS[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_VSS_Wolf_C” 或 物品代码 ＝ “BP_Sniper_VSS_Wrapper_Wolf_C”)
+            返回内容 ＝ “VSS[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_VSS_Eagle_2_C” 或 物品代码 ＝ “BP_Sniper_VSS_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “VSS[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_VSS_XuanYuan_2_C” 或 物品代码 ＝ “BP_Sniper_VSS_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “VSS[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_VSS_Wolf_2_C” 或 物品代码 ＝ “BP_Sniper_VSS_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “VSS[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.AWM)
+        .如果真 (物品代码 ＝ “BP_Sniper_AWM_5_C” 或 物品代码 ＝ “BP_Sniper_AWM_Wrapper_5_C”)
+            返回内容 ＝ “AWM[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AWM_6_C” 或 物品代码 ＝ “BP_Sniper_AWM_Wrapper_6_C”)
+            返回内容 ＝ “AWM[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AWM_7_C” 或 物品代码 ＝ “BP_Sniper_AWM_Wrapper_7_C”)
+            返回内容 ＝ “AWM[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AWM_Eagle_C” 或 物品代码 ＝ “BP_Sniper_AWM_Wrapper_Eagle_C”)
+            返回内容 ＝ “AWM[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AWM_XuanYuan_C” 或 物品代码 ＝ “BP_Sniper_AWM_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “AWM[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AWM_Wolf_C” 或 物品代码 ＝ “BP_Sniper_AWM_Wrapper_Wolf_C”)
+            返回内容 ＝ “AWM[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AWM_Eagle_2_C” 或 物品代码 ＝ “BP_Sniper_AWM_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “AWM[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AWM_XuanYuan_2_C” 或 物品代码 ＝ “BP_Sniper_AWM_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “AWM[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AWM_Wolf_2_C” 或 物品代码 ＝ “BP_Sniper_AWM_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “AWM[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.QBU)
+        .如果真 (物品代码 ＝ “BP_Sniper_QBU_5_C” 或 物品代码 ＝ “BP_Sniper_QBU_Wrapper_5_C”)
+            返回内容 ＝ “QBU[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_QBU_6_C” 或 物品代码 ＝ “BP_Sniper_QBU_Wrapper_6_C”)
+            返回内容 ＝ “QBU[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_QBU_7_C” 或 物品代码 ＝ “BP_Sniper_QBU_Wrapper_7_C”)
+            返回内容 ＝ “QBU[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_QBU_Eagle_C” 或 物品代码 ＝ “BP_Sniper_QBU_Wrapper_Eagle_C”)
+            返回内容 ＝ “QBU[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_QBU_XuanYuan_C” 或 物品代码 ＝ “BP_Sniper_QBU_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “QBU[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_QBU_Wolf_C” 或 物品代码 ＝ “BP_Sniper_QBU_Wrapper_Wolf_C”)
+            返回内容 ＝ “QBU[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_QBU_Eagle_2_C” 或 物品代码 ＝ “BP_Sniper_QBU_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “QBU[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_QBU_XuanYuan_2_C” 或 物品代码 ＝ “BP_Sniper_QBU_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “QBU[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_QBU_Wolf_2_C” 或 物品代码 ＝ “BP_Sniper_QBU_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “QBU[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.SLR)
+        .如果真 (物品代码 ＝ “BP_Sniper_SLR_5_C” 或 物品代码 ＝ “BP_Sniper_SLR_Wrapper_5_C”)
+            返回内容 ＝ “SLR[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SLR_6_C” 或 物品代码 ＝ “BP_Sniper_SLR_Wrapper_6_C”)
+            返回内容 ＝ “SLR[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SLR_7_C” 或 物品代码 ＝ “BP_Sniper_SLR_Wrapper_7_C”)
+            返回内容 ＝ “SLR[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SLR_Eagle_C” 或 物品代码 ＝ “BP_Sniper_SLR_Wrapper_Eagle_C”)
+            返回内容 ＝ “SLR[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SLR_XuanYuan_C” 或 物品代码 ＝ “BP_Sniper_SLR_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “SLR[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SLR_Wolf_C” 或 物品代码 ＝ “BP_Sniper_SLR_Wrapper_Wolf_C”)
+            返回内容 ＝ “SLR[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SLR_Eagle_2_C” 或 物品代码 ＝ “BP_Sniper_SLR_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “SLR[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SLR_XuanYuan_2_C” 或 物品代码 ＝ “BP_Sniper_SLR_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “SLR[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SLR_Wolf_2_C” 或 物品代码 ＝ “BP_Sniper_SLR_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “SLR[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.莫辛纳甘)
+        .如果真 (物品代码 ＝ “BP_Sniper_Mosin_5_C” 或 物品代码 ＝ “BP_Sniper_Mosin_Wrapper_5_C”)
+            返回内容 ＝ “莫辛纳甘[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mosin_6_C” 或 物品代码 ＝ “BP_Sniper_Mosin_Wrapper_6_C”)
+            返回内容 ＝ “莫辛纳甘[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mosin_7_C” 或 物品代码 ＝ “BP_Sniper_Mosin_Wrapper_7_C”)
+            返回内容 ＝ “莫辛纳甘[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mosin_Eagle_C” 或 物品代码 ＝ “BP_Sniper_Mosin_Wrapper_Eagle_C”)
+            返回内容 ＝ “莫辛纳甘[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mosin_XuanYuan_C” 或 物品代码 ＝ “BP_Sniper_Mosin_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “莫辛纳甘[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mosin_Wolf_C” 或 物品代码 ＝ “BP_Sniper_Mosin_Wrapper_Wolf_C”)
+            返回内容 ＝ “莫辛纳甘[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mosin_Eagle_2_C” 或 物品代码 ＝ “BP_Sniper_Mosin_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “莫辛纳甘[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mosin_XuanYuan_2_C” 或 物品代码 ＝ “BP_Sniper_Mosin_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “莫辛纳甘[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_Mosin_Wolf_2_C” 或 物品代码 ＝ “BP_Sniper_Mosin_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “莫辛纳甘[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.AMR)
+        .如果真 (物品代码 ＝ “BP_Sniper_AMR_5_C” 或 物品代码 ＝ “BP_Sniper_AMR_Wrapper_5_C”)
+            返回内容 ＝ “AMR[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AMR_6_C” 或 物品代码 ＝ “BP_Sniper_AMR_Wrapper_6_C”)
+            返回内容 ＝ “AMR[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AMR_7_C” 或 物品代码 ＝ “BP_Sniper_AMR_Wrapper_7_C”)
+            返回内容 ＝ “AMR[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AMR_Eagle_C” 或 物品代码 ＝ “BP_Sniper_AMR_Wrapper_Eagle_C”)
+            返回内容 ＝ “AMR[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AMR_XuanYuan_C” 或 物品代码 ＝ “BP_Sniper_AMR_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “AMR[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AMR_Wolf_C” 或 物品代码 ＝ “BP_Sniper_AMR_Wrapper_Wolf_C”)
+            返回内容 ＝ “AMR[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AMR_Eagle_2_C” 或 物品代码 ＝ “BP_Sniper_AMR_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “AMR[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AMR_XuanYuan_2_C” 或 物品代码 ＝ “BP_Sniper_AMR_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “AMR[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_AMR_Wolf_2_C” 或 物品代码 ＝ “BP_Sniper_AMR_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “AMR[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.MK14)
+        .如果真 (物品代码 ＝ “BP_WEP_Mk14_5_C” 或 物品代码 ＝ “BP_WEP_Mk14_Wrapper_5_C”)
+            返回内容 ＝ “Mk14[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WEP_Mk14_6_C” 或 物品代码 ＝ “BP_WEP_Mk14_Wrapper_6_C”)
+            返回内容 ＝ “Mk14[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WEP_Mk14_7_C” 或 物品代码 ＝ “BP_WEP_Mk14_Wrapper_7_C”)
+            返回内容 ＝ “Mk14[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WEP_Mk14_Eagle_C” 或 物品代码 ＝ “BP_WEP_Mk14_Wrapper_Eagle_C”)
+            返回内容 ＝ “Mk14[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WEP_Mk14_XuanYuan_C” 或 物品代码 ＝ “BP_WEP_Mk14_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “Mk14[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WEP_Mk14_Wolf_C” 或 物品代码 ＝ “BP_WEP_Mk14_Wrapper_Wolf_C”)
+            返回内容 ＝ “Mk14[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WEP_Mk14_Eagle_2_C” 或 物品代码 ＝ “BP_WEP_Mk14_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “Mk14[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WEP_Mk14_XuanYuan_2_C” 或 物品代码 ＝ “BP_WEP_Mk14_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “Mk14[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WEP_Mk14_Wolf_2_C” 或 物品代码 ＝ “BP_WEP_Mk14_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “Mk14[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.MK20)
+        .如果真 (物品代码 ＝ “BP_Sniper_MK20_5_C” 或 物品代码 ＝ “BP_Sniper_MK20_Wrapper_5_C”)
+            返回内容 ＝ “MK20[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK20_6_C” 或 物品代码 ＝ “BP_Sniper_MK20_Wrapper_6_C”)
+            返回内容 ＝ “MK20[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK20_7_C” 或 物品代码 ＝ “BP_Sniper_MK20_Wrapper_7_C”)
+            返回内容 ＝ “MK20[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK20_Eagle_C” 或 物品代码 ＝ “BP_Sniper_MK20_Wrapper_Eagle_C”)
+            返回内容 ＝ “MK20[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK20_XuanYuan_C” 或 物品代码 ＝ “BP_Sniper_MK20_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “MK20[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK20_Wolf_C” 或 物品代码 ＝ “BP_Sniper_MK20_Wrapper_Wolf_C”)
+            返回内容 ＝ “MK20[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK20_Eagle_2_C” 或 物品代码 ＝ “BP_Sniper_MK20_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “MK20[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK20_XuanYuan_2_C” 或 物品代码 ＝ “BP_Sniper_MK20_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “MK20[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK20_Wolf_2_C” 或 物品代码 ＝ “BP_Sniper_MK20_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “MK20[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.SVD狙击枪)
+        .如果真 (物品代码 ＝ “BP_Sniper_SVD_5_C” 或 物品代码 ＝ “BP_Sniper_SVD_Wrapper_5_C”)
+            返回内容 ＝ “SVD[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SVD_6_C” 或 物品代码 ＝ “BP_Sniper_SVD_Wrapper_6_C”)
+            返回内容 ＝ “SVD[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SVD_7_C” 或 物品代码 ＝ “BP_Sniper_SVD_Wrapper_7_C”)
+            返回内容 ＝ “SVD[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SVD_Eagle_C” 或 物品代码 ＝ “BP_Sniper_SVD_Wrapper_Eagle_C”)
+            返回内容 ＝ “SVD[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SVD_XuanYuan_C” 或 物品代码 ＝ “BP_Sniper_SVD_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “SVD[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SVD_Wolf_C” 或 物品代码 ＝ “BP_Sniper_SVD_Wrapper_Wolf_C”)
+            返回内容 ＝ “SVD[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SVD_Eagle_2_C” 或 物品代码 ＝ “BP_Sniper_SVD_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “SVD[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SVD_XuanYuan_2_C” 或 物品代码 ＝ “BP_Sniper_SVD_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “SVD[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_SVD_Wolf_2_C” 或 物品代码 ＝ “BP_Sniper_SVD_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “SVD[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.MK12)
+        .如果真 (物品代码 ＝ “BP_Sniper_MK12_5_C” 或 物品代码 ＝ “BP_Sniper_MK12_Wrapper_5_C”)
+            返回内容 ＝ “MK12[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK12_6_C” 或 物品代码 ＝ “BP_Sniper_MK12_Wrapper_6_C”)
+            返回内容 ＝ “MK12[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK12_7_C” 或 物品代码 ＝ “BP_Sniper_MK12_Wrapper_7_C”)
+            返回内容 ＝ “MK12[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK12_Eagle_C” 或 物品代码 ＝ “BP_Sniper_MK12_Wrapper_Eagle_C”)
+            返回内容 ＝ “MK12[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK12_XuanYuan_C” 或 物品代码 ＝ “BP_Sniper_MK12_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “MK12[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK12_Wolf_C” 或 物品代码 ＝ “BP_Sniper_MK12_Wrapper_Wolf_C”)
+            返回内容 ＝ “MK12[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK12_Eagle_2_C” 或 物品代码 ＝ “BP_Sniper_MK12_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “MK12[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK12_XuanYuan_2_C” 或 物品代码 ＝ “BP_Sniper_MK12_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “MK12[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_MK12_Wolf_2_C” 或 物品代码 ＝ “BP_Sniper_MK12_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “MK12[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.M1加兰德)
+        .如果真 (物品代码 ＝ “BP_Sniper_M1Garand_5_C” 或 物品代码 ＝ “BP_Sniper_M1Garand_Wrapper_5_C”)
+            返回内容 ＝ “M1加兰德[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M1Garand_6_C” 或 物品代码 ＝ “BP_Sniper_M1Garand_Wrapper_6_C”)
+            返回内容 ＝ “M1加兰德[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M1Garand_7_C” 或 物品代码 ＝ “BP_Sniper_M1Garand_Wrapper_7_C”)
+            返回内容 ＝ “M1加兰德[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M1Garand_Eagle_C” 或 物品代码 ＝ “BP_Sniper_M1Garand_Wrapper_Eagle_C”)
+            返回内容 ＝ “M1加兰德[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M1Garand_XuanYuan_C” 或 物品代码 ＝ “BP_Sniper_M1Garand_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “M1加兰德[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M1Garand_Wolf_C” 或 物品代码 ＝ “BP_Sniper_M1Garand_Wrapper_Wolf_C”)
+            返回内容 ＝ “M1加兰德[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M1Garand_Eagle_2_C” 或 物品代码 ＝ “BP_Sniper_M1Garand_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “M1加兰德[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M1Garand_XuanYuan_2_C” 或 物品代码 ＝ “BP_Sniper_M1Garand_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “M1加兰德[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Sniper_M1Garand_Wolf_2_C” 或 物品代码 ＝ “BP_Sniper_M1Garand_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “M1加兰德[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.MG36)
+        .如果真 (物品代码 ＝ “BP_Other_MG36_5_C” 或 物品代码 ＝ “BP_Other_MG36_Wrapper_5_C”)
+            返回内容 ＝ “MG36[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG36_6_C” 或 物品代码 ＝ “BP_Other_MG36_Wrapper_6_C”)
+            返回内容 ＝ “MG36[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG36_7_C” 或 物品代码 ＝ “BP_Other_MG36_Wrapper_7_C”)
+            返回内容 ＝ “MG36[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG36_Eagle_C” 或 物品代码 ＝ “BP_Other_MG36_Wrapper_Eagle_C”)
+            返回内容 ＝ “MG36[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG36_XuanYuan_C” 或 物品代码 ＝ “BP_Other_MG36_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “MG36[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG36_Wolf_C” 或 物品代码 ＝ “BP_Other_MG36_Wrapper_Wolf_C”)
+            返回内容 ＝ “MG36[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG36_Eagle_2_C” 或 物品代码 ＝ “BP_Other_MG36_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “MG36[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG36_XuanYuan_2_C” 或 物品代码 ＝ “BP_Other_MG36_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “MG36[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG36_Wolf_2_C” 或 物品代码 ＝ “BP_Other_MG36_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “MG36[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.DP28轻机枪)
+        .如果真 (物品代码 ＝ “BP_Other_DP28_5_C” 或 物品代码 ＝ “BP_Other_DP28_Wrapper_5_C”)
+            返回内容 ＝ “DP28[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_DP28_6_C” 或 物品代码 ＝ “BP_Other_DP28_Wrapper_6_C”)
+            返回内容 ＝ “DP28[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_DP28_7_C” 或 物品代码 ＝ “BP_Other_DP28_Wrapper_7_C”)
+            返回内容 ＝ “DP28[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_DP28_Eagle_C” 或 物品代码 ＝ “BP_Other_DP28_Wrapper_Eagle_C”)
+            返回内容 ＝ “DP28[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_DP28_XuanYuan_C” 或 物品代码 ＝ “BP_Other_DP28_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “DP28[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_DP28_Wolf_C” 或 物品代码 ＝ “BP_Other_DP28_Wrapper_Wolf_C”)
+            返回内容 ＝ “DP28[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_DP28_Eagle_2_C” 或 物品代码 ＝ “BP_Other_DP28_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “DP28[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_DP28_XuanYuan_2_C” 或 物品代码 ＝ “BP_Other_DP28_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “DP28[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_DP28_Wolf_2_C” 或 物品代码 ＝ “BP_Other_DP28_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “DP28[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.DP28)
+        .如果真 (物品代码 ＝ “BP_Other_Dp-28_5_C” 或 物品代码 ＝ “BP_Other_Dp-28_Wrapper_5_C”)
+            返回内容 ＝ “Dp-28[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_Dp-28_6_C” 或 物品代码 ＝ “BP_Other_Dp-28_Wrapper_6_C”)
+            返回内容 ＝ “Dp-28[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_Dp-28_7_C” 或 物品代码 ＝ “BP_Other_Dp-28_Wrapper_7_C”)
+            返回内容 ＝ “Dp-28[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_Dp-28_Eagle_C” 或 物品代码 ＝ “BP_Other_Dp-28_Wrapper_Eagle_C”)
+            返回内容 ＝ “Dp-28[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_Dp-28_XuanYuan_C” 或 物品代码 ＝ “BP_Other_Dp-28_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “Dp-28[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_Dp-28_Wolf_C” 或 物品代码 ＝ “BP_Other_Dp-28_Wrapper_Wolf_C”)
+            返回内容 ＝ “Dp-28[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_Dp-28_Eagle_2_C” 或 物品代码 ＝ “BP_Other_Dp-28_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “Dp-28[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_Dp-28_XuanYuan_2_C” 或 物品代码 ＝ “BP_Other_Dp-28_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “Dp-28[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_Dp-28_Wolf_2_C” 或 物品代码 ＝ “BP_Other_Dp-28_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “Dp-28[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.M249)
+        .如果真 (物品代码 ＝ “BP_Other_M249_5_C” 或 物品代码 ＝ “BP_Other_M249_Wrapper_5_C”)
+            返回内容 ＝ “M249[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_M249_6_C” 或 物品代码 ＝ “BP_Other_M249_Wrapper_6_C”)
+            返回内容 ＝ “M249[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_M249_7_C” 或 物品代码 ＝ “BP_Other_M249_Wrapper_7_C”)
+            返回内容 ＝ “M249[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_M249_Eagle_C” 或 物品代码 ＝ “BP_Other_M249_Wrapper_Eagle_C”)
+            返回内容 ＝ “M249[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_M249_XuanYuan_C” 或 物品代码 ＝ “BP_Other_M249_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “M249[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_M249_Wolf_C” 或 物品代码 ＝ “BP_Other_M249_Wrapper_Wolf_C”)
+            返回内容 ＝ “M249[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_M249_Eagle_2_C” 或 物品代码 ＝ “BP_Other_M249_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “M249[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_M249_XuanYuan_2_C” 或 物品代码 ＝ “BP_Other_M249_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “M249[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_M249_Wolf_2_C” 或 物品代码 ＝ “BP_Other_M249_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “M249[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.M338)
+        .如果真 (物品代码 ＝ “BP_Other_SIG_M338_5_C” 或 物品代码 ＝ “BP_Other_SIG_M338_Wrapper_5_C”)
+            返回内容 ＝ “M338[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_SIG_M338_6_C” 或 物品代码 ＝ “BP_Other_SIG_M338_Wrapper_6_C”)
+            返回内容 ＝ “M338[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_SIG_M338_7_C” 或 物品代码 ＝ “BP_Other_SIG_M338_Wrapper_7_C”)
+            返回内容 ＝ “M338[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_SIG_M338_Eagle_C” 或 物品代码 ＝ “BP_Other_SIG_M338_Wrapper_Eagle_C”)
+            返回内容 ＝ “M338[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_SIG_M338_XuanYuan_C” 或 物品代码 ＝ “BP_Other_SIG_M338_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “M338[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_SIG_M338_Wolf_C” 或 物品代码 ＝ “BP_Other_SIG_M338_Wrapper_Wolf_C”)
+            返回内容 ＝ “M338[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_SIG_M338_Eagle_2_C” 或 物品代码 ＝ “BP_Other_SIG_M338_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “M338[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_SIG_M338_XuanYuan_2_C” 或 物品代码 ＝ “BP_Other_SIG_M338_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “M338[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_SIG_M338_Wolf_2_C” 或 物品代码 ＝ “BP_Other_SIG_M338_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “M338[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+
+    .如果真 (地铁.PKM)
+        .如果真 (物品代码 ＝ “BP_Other_PKM_5_C” 或 物品代码 ＝ “BP_Other_PKM_Wrapper_5_C”)
+            返回内容 ＝ “PKM[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_PKM_6_C” 或 物品代码 ＝ “BP_Other_PKM_Wrapper_6_C”)
+            返回内容 ＝ “PKM[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_PKM_7_C” 或 物品代码 ＝ “BP_Other_PKM_Wrapper_7_C”)
+            返回内容 ＝ “PKM[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_PKM_Eagle_C” 或 物品代码 ＝ “BP_Other_PKM_Wrapper_Eagle_C”)
+            返回内容 ＝ “PKM[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_PKM_XuanYuan_C” 或 物品代码 ＝ “BP_Other_PKM_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “PKM[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_PKM_Wolf_C” 或 物品代码 ＝ “BP_Other_PKM_Wrapper_Wolf_C”)
+            返回内容 ＝ “PKM[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_PKM_Eagle_2_C” 或 物品代码 ＝ “BP_Other_PKM_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “PKM[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_PKM_XuanYuan_2_C” 或 物品代码 ＝ “BP_Other_PKM_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “PKM[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_PKM_Wolf_2_C” 或 物品代码 ＝ “BP_Other_PKM_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “PKM[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.MG3)
+        .如果真 (物品代码 ＝ “BP_Other_MG3_5_C” 或 物品代码 ＝ “BP_Other_MG3_Wrapper_5_C”)
+            返回内容 ＝ “MG3[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG3_6_C” 或 物品代码 ＝ “BP_Other_MG3_Wrapper_6_C”)
+            返回内容 ＝ “MG3[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG3_7_C” 或 物品代码 ＝ “BP_Other_MG3_Wrapper_7_C”)
+            返回内容 ＝ “MG3[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG3_Eagle_C” 或 物品代码 ＝ “BP_Other_MG3_Wrapper_Eagle_C”)
+            返回内容 ＝ “MG3[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG3_XuanYuan_C” 或 物品代码 ＝ “BP_Other_MG3_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “MG3[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG3_Wolf_C” 或 物品代码 ＝ “BP_Other_MG3_Wrapper_Wolf_C”)
+            返回内容 ＝ “MG3[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG3_Eagle_2_C” 或 物品代码 ＝ “BP_Other_MG3_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “MG3[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG3_XuanYuan_2_C” 或 物品代码 ＝ “BP_Other_MG3_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “MG3[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_Other_MG3_Wolf_2_C” 或 物品代码 ＝ “BP_Other_MG3_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “MG3[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.S1897)
+        .如果真 (物品代码 ＝ “BP_ShotGun_S1897_5_C” 或 物品代码 ＝ “BP_ShotGun_S1897_Wrapper_5_C”)
+            返回内容 ＝ “S1897[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S1897_6_C” 或 物品代码 ＝ “BP_ShotGun_S1897_Wrapper_6_C”)
+            返回内容 ＝ “S1897[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S1897_7_C” 或 物品代码 ＝ “BP_ShotGun_S1897_Wrapper_7_C”)
+            返回内容 ＝ “S1897[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S1897_Eagle_C” 或 物品代码 ＝ “BP_ShotGun_S1897_Wrapper_Eagle_C”)
+            返回内容 ＝ “S1897[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S1897_XuanYuan_C” 或 物品代码 ＝ “BP_ShotGun_S1897_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “S1897[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S1897_Wolf_C” 或 物品代码 ＝ “BP_ShotGun_S1897_Wrapper_Wolf_C”)
+            返回内容 ＝ “S1897[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S1897_Eagle_2_C” 或 物品代码 ＝ “BP_ShotGun_S1897_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “S1897[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S1897_XuanYuan_2_C” 或 物品代码 ＝ “BP_ShotGun_S1897_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “S1897[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S1897_Wolf_2_C” 或 物品代码 ＝ “BP_ShotGun_S1897_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “S1897[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.DBS)
+        .如果真 (物品代码 ＝ “BP_ShotGun_DP12_5_C” 或 物品代码 ＝ “BP_ShotGun_DP12_Wrapper_5_C”)
+            返回内容 ＝ “DBS[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_DP12_6_C” 或 物品代码 ＝ “BP_ShotGun_DP12_Wrapper_6_C”)
+            返回内容 ＝ “DBS[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_DP12_7_C” 或 物品代码 ＝ “BP_ShotGun_DP12_Wrapper_7_C”)
+            返回内容 ＝ “DBS[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_DP12_Eagle_C” 或 物品代码 ＝ “BP_ShotGun_DP12_Wrapper_Eagle_C”)
+            返回内容 ＝ “DBS[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_DP12_XuanYuan_C” 或 物品代码 ＝ “BP_ShotGun_DP12_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “DBS[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_DP12_Wolf_C” 或 物品代码 ＝ “BP_ShotGun_DP12_Wrapper_Wolf_C”)
+            返回内容 ＝ “DBS[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_DP12_Eagle_2_C” 或 物品代码 ＝ “BP_ShotGun_DP12_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “DBS[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_DP12_XuanYuan_2_C” 或 物品代码 ＝ “BP_ShotGun_DP12_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “DBS[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_DP12_Wolf_2_C” 或 物品代码 ＝ “BP_ShotGun_DP12_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “DBS[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.S12K)
+        .如果真 (物品代码 ＝ “BP_ShotGun_S12K_5_C” 或 物品代码 ＝ “BP_ShotGun_S12K_Wrapper_5_C”)
+            返回内容 ＝ “S12K[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S12K_6_C” 或 物品代码 ＝ “BP_ShotGun_S12K_Wrapper_6_C”)
+            返回内容 ＝ “S12K[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S12K_7_C” 或 物品代码 ＝ “BP_ShotGun_S12K_Wrapper_7_C”)
+            返回内容 ＝ “S12K[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S12K_Eagle_C” 或 物品代码 ＝ “BP_ShotGun_S12K_Wrapper_Eagle_C”)
+            返回内容 ＝ “S12K[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S12K_XuanYuan_C” 或 物品代码 ＝ “BP_ShotGun_S12K_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “S12K[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S12K_Wolf_C” 或 物品代码 ＝ “BP_ShotGun_S12K_Wrapper_Wolf_C”)
+            返回内容 ＝ “S12K[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S12K_Eagle_2_C” 或 物品代码 ＝ “BP_ShotGun_S12K_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “S12K[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S12K_XuanYuan_2_C” 或 物品代码 ＝ “BP_ShotGun_S12K_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “S12K[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S12K_Wolf_2_C” 或 物品代码 ＝ “BP_ShotGun_S12K_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “S12K[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.AA12)
+        .如果真 (物品代码 ＝ “BP_ShotGun_AA12_5_C” 或 物品代码 ＝ “BP_ShotGun_AA12_Wrapper_5_C”)
+            返回内容 ＝ “AA12[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_AA12_6_C” 或 物品代码 ＝ “BP_ShotGun_AA12_Wrapper_6_C”)
+            返回内容 ＝ “AA12[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_AA12_7_C” 或 物品代码 ＝ “BP_ShotGun_AA12_Wrapper_7_C”)
+            返回内容 ＝ “AA12[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_AA12_Eagle_C” 或 物品代码 ＝ “BP_ShotGun_AA12_Wrapper_Eagle_C”)
+            返回内容 ＝ “AA12[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_AA12_XuanYuan_C” 或 物品代码 ＝ “BP_ShotGun_AA12_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “AA12[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_AA12_Wolf_C” 或 物品代码 ＝ “BP_ShotGun_AA12_Wrapper_Wolf_C”)
+            返回内容 ＝ “AA12[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_AA12_Eagle_2_C” 或 物品代码 ＝ “BP_ShotGun_AA12_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “AA12[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_AA12_XuanYuan_2_C” 或 物品代码 ＝ “BP_ShotGun_AA12_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “AA12[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_AA12_Wolf_2_C” 或 物品代码 ＝ “BP_ShotGun_AA12_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “AA12[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_AA12_Boss_C” 或 物品代码 ＝ “BP_ShotGun_AA12_Wrapper_Boss_C”)
+            返回内容 ＝ “AA12[雪隼]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.SPAS12)
+        .如果真 (物品代码 ＝ “BP_ShotGun_SPAS-12_5_C” 或 物品代码 ＝ “BP_ShotGun_SPAS-12_Wrapper_5_C”)
+            返回内容 ＝ “SPAS-12[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_SPAS-12_6_C” 或 物品代码 ＝ “BP_ShotGun_SPAS-12_Wrapper_6_C”)
+            返回内容 ＝ “SPAS-12[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_SPAS-12_7_C” 或 物品代码 ＝ “BP_ShotGun_SPAS-12_Wrapper_7_C”)
+            返回内容 ＝ “SPAS-12[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_SPAS-12_Eagle_C” 或 物品代码 ＝ “BP_ShotGun_SPAS-12_Wrapper_Eagle_C”)
+            返回内容 ＝ “SPAS-12[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_SPAS-12_XuanYuan_C” 或 物品代码 ＝ “BP_ShotGun_SPAS-12_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “SPAS-12[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_SPAS-12_Wolf_C” 或 物品代码 ＝ “BP_ShotGun_SPAS-12_Wrapper_Wolf_C”)
+            返回内容 ＝ “SPAS-12[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_SPAS-12_Eagle_2_C” 或 物品代码 ＝ “BP_ShotGun_SPAS-12_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “SPAS-12[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_SPAS-12_XuanYuan_2_C” 或 物品代码 ＝ “BP_ShotGun_SPAS-12_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “SPAS-12[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_SPAS-12_Wolf_2_C” 或 物品代码 ＝ “BP_ShotGun_SPAS-12_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “SPAS-12[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.S686)
+        .如果真 (物品代码 ＝ “BP_ShotGun_S686_5_C” 或 物品代码 ＝ “BP_ShotGun_S686_Wrapper_5_C”)
+            返回内容 ＝ “S686[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S686_6_C” 或 物品代码 ＝ “BP_ShotGun_S686_Wrapper_6_C”)
+            返回内容 ＝ “S686[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S686_7_C” 或 物品代码 ＝ “BP_ShotGun_S686_Wrapper_7_C”)
+            返回内容 ＝ “S686[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S686_Eagle_C” 或 物品代码 ＝ “BP_ShotGun_S686_Wrapper_Eagle_C”)
+            返回内容 ＝ “S686[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S686_XuanYuan_C” 或 物品代码 ＝ “BP_ShotGun_S686_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “S686[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S686_Wolf_C” 或 物品代码 ＝ “BP_ShotGun_S686_Wrapper_Wolf_C”)
+            返回内容 ＝ “S686[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S686_Eagle_2_C” 或 物品代码 ＝ “BP_ShotGun_S686_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “S686[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S686_XuanYuan_2_C” 或 物品代码 ＝ “BP_ShotGun_S686_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “S686[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ShotGun_S686_Wolf_2_C” 或 物品代码 ＝ “BP_ShotGun_S686_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “S686[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.UMP9)
+        .如果真 (物品代码 ＝ “BP_MachineGun_UMP9_5_C” 或 物品代码 ＝ “BP_MachineGun_UMP9_Wrapper_5_C”)
+            返回内容 ＝ “UMP45[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_UMP9_6_C” 或 物品代码 ＝ “BP_MachineGun_UMP9_Wrapper_6_C”)
+            返回内容 ＝ “UMP45[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_UMP9_7_C” 或 物品代码 ＝ “BP_MachineGun_UMP9_Wrapper_7_C”)
+            返回内容 ＝ “UMP45[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_UMP9_Eagle_C” 或 物品代码 ＝ “BP_MachineGun_UMP9_Wrapper_Eagle_C”)
+            返回内容 ＝ “UMP45[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_UMP9_XuanYuan_C” 或 物品代码 ＝ “BP_MachineGun_UMP9_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “UMP45[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_UMP9_Wolf_C” 或 物品代码 ＝ “BP_MachineGun_UMP9_Wrapper_Wolf_C”)
+            返回内容 ＝ “UMP45[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_UMP9_Eagle_2_C” 或 物品代码 ＝ “BP_MachineGun_UMP9_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “UMP45[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_UMP9_XuanYuan_2_C” 或 物品代码 ＝ “BP_MachineGun_UMP9_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “UMP45[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_UMP9_Wolf_2_C” 或 物品代码 ＝ “BP_MachineGun_UMP9_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “UMP45[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.UZI)
+        .如果真 (物品代码 ＝ “BP_MachineGun_Uzi_5_C” 或 物品代码 ＝ “BP_MachineGun_Uzi_Wrapper_5_C”)
+            返回内容 ＝ “Uzi[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Uzi_6_C” 或 物品代码 ＝ “BP_MachineGun_Uzi_Wrapper_6_C”)
+            返回内容 ＝ “Uzi[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Uzi_7_C” 或 物品代码 ＝ “BP_MachineGun_Uzi_Wrapper_7_C”)
+            返回内容 ＝ “Uzi[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Uzi_Eagle_C” 或 物品代码 ＝ “BP_MachineGun_Uzi_Wrapper_Eagle_C”)
+            返回内容 ＝ “Uzi[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Uzi_XuanYuan_C” 或 物品代码 ＝ “BP_MachineGun_Uzi_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “Uzi[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Uzi_Wolf_C” 或 物品代码 ＝ “BP_MachineGun_Uzi_Wrapper_Wolf_C”)
+            返回内容 ＝ “Uzi[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Uzi_Eagle_2_C” 或 物品代码 ＝ “BP_MachineGun_Uzi_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “Uzi[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Uzi_XuanYuan_2_C” 或 物品代码 ＝ “BP_MachineGun_Uzi_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “Uzi[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Uzi_Wolf_2_C” 或 物品代码 ＝ “BP_MachineGun_Uzi_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “Uzi[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.Vector)
+        .如果真 (物品代码 ＝ “BP_MachineGun_Vector_5_C” 或 物品代码 ＝ “BP_MachineGun_Vector_Wrapper_5_C”)
+            返回内容 ＝ “Vector[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Vector_6_C” 或 物品代码 ＝ “BP_MachineGun_Vector_Wrapper_6_C”)
+            返回内容 ＝ “Vector[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Vector_7_C” 或 物品代码 ＝ “BP_MachineGun_Vector_Wrapper_7_C”)
+            返回内容 ＝ “Vector[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Vector_Eagle_C” 或 物品代码 ＝ “BP_MachineGun_Vector_Wrapper_Eagle_C”)
+            返回内容 ＝ “Vector[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Vector_XuanYuan_C” 或 物品代码 ＝ “BP_MachineGun_Vector_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “Vector[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Vector_Wolf_C” 或 物品代码 ＝ “BP_MachineGun_Vector_Wrapper_Wolf_C”)
+            返回内容 ＝ “Vector[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Vector_Eagle_2_C” 或 物品代码 ＝ “BP_MachineGun_Vector_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “Vector[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Vector_XuanYuan_2_C” 或 物品代码 ＝ “BP_MachineGun_Vector_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “Vector[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_Vector_Wolf_2_C” 或 物品代码 ＝ “BP_MachineGun_Vector_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “Vector[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.MP5K)
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP5K_5_C” 或 物品代码 ＝ “BP_MachineGun_MP5K_Wrapper_5_C”)
+            返回内容 ＝ “MP5K[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP5K_6_C” 或 物品代码 ＝ “BP_MachineGun_MP5K_Wrapper_6_C”)
+            返回内容 ＝ “MP5K[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP5K_7_C” 或 物品代码 ＝ “BP_MachineGun_MP5K_Wrapper_7_C”)
+            返回内容 ＝ “MP5K[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP5K_Eagle_C” 或 物品代码 ＝ “BP_MachineGun_MP5K_Wrapper_Eagle_C”)
+            返回内容 ＝ “MP5K[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP5K_XuanYuan_C” 或 物品代码 ＝ “BP_MachineGun_MP5K_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “MP5K[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP5K_Wolf_C” 或 物品代码 ＝ “BP_MachineGun_MP5K_Wrapper_Wolf_C”)
+            返回内容 ＝ “MP5K[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP5K_Eagle_2_C” 或 物品代码 ＝ “BP_MachineGun_MP5K_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “MP5K[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP5K_XuanYuan_2_C” 或 物品代码 ＝ “BP_MachineGun_MP5K_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “MP5K[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP5K_Wolf_2_C” 或 物品代码 ＝ “BP_MachineGun_MP5K_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “MP5K[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.ASK)
+        .如果真 (物品代码 ＝ “BP_MachineGun_AKS74U_5_C” 或 物品代码 ＝ “BP_MachineGun_AKS74U_Wrapper_5_C”)
+            返回内容 ＝ “AKS[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_AKS74U_6_C” 或 物品代码 ＝ “BP_MachineGun_AKS74U_Wrapper_6_C”)
+            返回内容 ＝ “AKS[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_AKS74U_7_C” 或 物品代码 ＝ “BP_MachineGun_AKS74U_Wrapper_7_C”)
+            返回内容 ＝ “AKS[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_AKS74U_Eagle_C” 或 物品代码 ＝ “BP_MachineGun_AKS74U_Wrapper_Eagle_C”)
+            返回内容 ＝ “AKS[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_AKS74U_XuanYuan_C” 或 物品代码 ＝ “BP_MachineGun_AKS74U_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “AKS[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_AKS74U_Wolf_C” 或 物品代码 ＝ “BP_MachineGun_AKS74U_Wrapper_Wolf_C”)
+            返回内容 ＝ “AKS[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_AKS74U_Eagle_2_C” 或 物品代码 ＝ “BP_MachineGun_AKS74U_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “AKS[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_AKS74U_XuanYuan_2_C” 或 物品代码 ＝ “BP_MachineGun_AKS74U_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “AKS[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_AKS74U_Wolf_2_C” 或 物品代码 ＝ “BP_MachineGun_AKS74U_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “AKS[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.P90)
+        .如果真 (物品代码 ＝ “BP_MachineGun_P90CG17_5_C” 或 物品代码 ＝ “BP_MachineGun_P90CG17_Wrapper_5_C”)
+            返回内容 ＝ “P90[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_P90CG17_6_C” 或 物品代码 ＝ “BP_MachineGun_P90CG17_Wrapper_6_C”)
+            返回内容 ＝ “P90[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_P90CG17_7_C” 或 物品代码 ＝ “BP_MachineGun_P90CG17_Wrapper_7_C”)
+            返回内容 ＝ “P90[金色]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_P90CG17_Eagle_C” 或 物品代码 ＝ “BP_MachineGun_P90CG17_Wrapper_Eagle_C”)
+            返回内容 ＝ “P90[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_P90CG17_XuanYuan_C” 或 物品代码 ＝ “BP_MachineGun_P90CG17_Wrapper_XuanYuan_C”)
+            返回内容 ＝ “P90[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_P90CG17_Wolf_C” 或 物品代码 ＝ “BP_MachineGun_P90CG17_Wrapper_Wolf_C”)
+            返回内容 ＝ “P90[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_P90CG17_Eagle_2_C” 或 物品代码 ＝ “BP_MachineGun_P90CG17_Wrapper_Eagle_2_C”)
+            返回内容 ＝ “P90[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_P90CG17_XuanYuan_2_C” 或 物品代码 ＝ “BP_MachineGun_P90CG17_Wrapper_XuanYuan_2_C”)
+            返回内容 ＝ “P90[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_P90CG17_Wolf_2_C” 或 物品代码 ＝ “BP_MachineGun_P90CG17_Wrapper_Wolf_2_C”)
+            返回内容 ＝ “P90[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.汤姆逊)
+        .如果真 (物品代码 ＝ “BP_MachineGun_TommyGun_5_C” 或 物品代码 ＝ “BP_MachineGun_TommyGun_Wrapper_5”)
+            返回内容 ＝ “汤姆逊[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_TommyGun_6_C” 或 物品代码 ＝ “BP_MachineGun_TommyGun_Wrapper_6”)
+            返回内容 ＝ “汤姆逊[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_TommyGun_7_C” 或 物品代码 ＝ “BP_MachineGun_TommyGun_Wrapper_7”)
+            返回内容 ＝ “汤姆逊[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_TommyGun_Eagle_C” 或 物品代码 ＝ “BP_MachineGun_TommyGun_Wrapper_Eagle”)
+            返回内容 ＝ “汤姆逊[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_TommyGun_XuanYuan_C” 或 物品代码 ＝ “BP_MachineGun_TommyGun_Wrapper_XuanYuan”)
+            返回内容 ＝ “汤姆逊[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_TommyGun_Wolf_C” 或 物品代码 ＝ “BP_MachineGun_TommyGun_Wrapper_Wolf”)
+            返回内容 ＝ “汤姆逊[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_TommyGun_Eagle_2_C” 或 物品代码 ＝ “BP_MachineGun_TommyGun_Wrapper_Eagle_2”)
+            返回内容 ＝ “汤姆逊[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_TommyGun_XuanYuan_2_C” 或 物品代码 ＝ “BP_MachineGun_TommyGun_Wrapper_XuanYuan_2”)
+            返回内容 ＝ “汤姆逊[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_TommyGun_Wolf_2_C” 或 物品代码 ＝ “BP_MachineGun_TommyGun_Wrapper_Wolf_2”)
+            返回内容 ＝ “汤姆逊[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.MP7)
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP7_5_C” 或 物品代码 ＝ “BP_MachineGun_MP7_Wrapper_5”)
+            返回内容 ＝ “MP7[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP7_6_C” 或 物品代码 ＝ “BP_MachineGun_MP7_Wrapper_6”)
+            返回内容 ＝ “MP7[卓越]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP7_7_C” 或 物品代码 ＝ “BP_MachineGun_MP7_Wrapper_7”)
+            返回内容 ＝ “MP7[金]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP7_Eagle_C” 或 物品代码 ＝ “BP_MachineGun_MP7_Wrapper_Eagle”)
+            返回内容 ＝ “MP7[铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP7_XuanYuan_C” 或 物品代码 ＝ “BP_MachineGun_MP7_Wrapper_XuanYuan”)
+            返回内容 ＝ “MP7[轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP7_Wolf_C” 或 物品代码 ＝ “BP_MachineGun_MP7_Wrapper_Wolf”)
+            返回内容 ＝ “MP7[黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP7_Eagle_2_C” 或 物品代码 ＝ “BP_MachineGun_MP7_Wrapper_Eagle_2”)
+            返回内容 ＝ “MP7[金-铁爪]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP7_XuanYuan_2_C” 或 物品代码 ＝ “BP_MachineGun_MP7_Wrapper_XuanYuan_2”)
+            返回内容 ＝ “MP7[金-轩辕]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_MachineGun_MP7_Wolf_2_C” 或 物品代码 ＝ “BP_MachineGun_MP7_Wrapper_Wolf_2”)
+            返回内容 ＝ “MP7[金-黑鹰]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.枪械颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+
+    ' --------------------------------药品物资------------------------------------------
+
+    .如果真 (地铁.肾上腺素)
+        .如果真 (物品代码 ＝ “E_Injection_Pickup_C”)
+            返回颜色 ＝ IMVEC4TORGBA (数据.药品颜色)
+            返回内容 ＝ “肾上腺素”
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.急救包)
+        .如果真 (物品代码 ＝ “E_Firstaid_Pickup_C”)
+            返回颜色 ＝ IMVEC4TORGBA (数据.药品颜色)
+            返回内容 ＝ “急救包”
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.医疗箱)
+        .如果真 (物品代码 ＝ “E_FirstAidbox_Pickup_C”)
+            返回颜色 ＝ IMVEC4TORGBA (数据.药品颜色)
+            返回内容 ＝ “医疗箱”
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.止痛药)
+        .如果真 (物品代码 ＝ “E_Pills_Pickup_C”)
+            返回颜色 ＝ IMVEC4TORGBA (数据.药品颜色)
+            返回内容 ＝ “止痛药”
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.能量饮料)
+        .如果真 (物品代码 ＝ “E_Drink_Pickup_C”)
+            返回颜色 ＝ IMVEC4TORGBA (数据.药品颜色)
+            返回内容 ＝ “能量饮料”
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “E_Bandage_Pickup_C”)
+            返回颜色 ＝ IMVEC4TORGBA (数据.药品颜色)
+            返回内容 ＝ “绷带”
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    ' --------------------------------配件物资------------------------------------------
+
+    .如果真 (地铁.红点)
+        .如果真 (物品代码 ＝ “BP_MZJ_HD_Pickup_C”)
+            返回内容 ＝ “红点”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.全息)
+        .如果真 (物品代码 ＝ “BP_MZJ_QX_Pickup_C”)
+            返回内容 ＝ “全息”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.冲锋扩容)
+        .如果真 (物品代码 ＝ “BP_DJ_Mid_E_Pickup_1_C”)
+            返回内容 ＝ “冲锋扩容[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Mid_E_Pickup_2_C”)
+            返回内容 ＝ “冲锋扩容[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Mid_E_Pickup_3_C”)
+            返回内容 ＝ “冲锋扩容[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Mid_E_Pickup_4_C”)
+            返回内容 ＝ “冲锋扩容[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Mid_E_Pickup_5_C”)
+            返回内容 ＝ “冲锋扩容[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.冲锋快扩)
+        .如果真 (物品代码 ＝ “BP_DJ_Mid_EQ_Pickup_1_C”)
+            返回内容 ＝ “冲锋快扩[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Mid_EQ_Pickup_2_C”)
+            返回内容 ＝ “冲锋快扩[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Mid_EQ_Pickup_3_C”)
+            返回内容 ＝ “冲锋快扩[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Mid_EQ_Pickup_4_C”)
+            返回内容 ＝ “冲锋快扩[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Mid_EQ_Pickup_5_C”)
+            返回内容 ＝ “冲锋快扩[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.步枪快扩)
+        .如果真 (物品代码 ＝ “BP_DJ_Large_EQ_Pickup_1_C”)
+            返回内容 ＝ “步枪快扩[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Large_EQ_Pickup_2_C”)
+            返回内容 ＝ “步枪快扩[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Large_EQ_Pickup_3_C”)
+            返回内容 ＝ “步枪快扩[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Large_EQ_Pickup_4_C”)
+            返回内容 ＝ “步枪快扩[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Large_EQ_Pickup_5_C”)
+            返回内容 ＝ “步枪快扩[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.步枪扩容)
+        .如果真 (物品代码 ＝ “BP_DJ_Large_E_Pickup_1_C”)
+            返回内容 ＝ “步枪扩容[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Large_E_Pickup_2_C”)
+            返回内容 ＝ “步枪扩容[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Large_E_Pickup_3_C”)
+            返回内容 ＝ “步枪扩容[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Large_E_Pickup_4_C”)
+            返回内容 ＝ “步枪扩容[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Large_E_Pickup_5_C”)
+            返回内容 ＝ “步枪扩容[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.狙击快扩)
+        .如果真 (物品代码 ＝ “BP_DJ_Sniper_EQ_Pickup_1_C”)
+            返回内容 ＝ “狙击快扩[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Sniper_EQ_Pickup_2_C”)
+            返回内容 ＝ “狙击快扩[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Sniper_EQ_Pickup_3_C”)
+            返回内容 ＝ “狙击快扩[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Sniper_EQ_Pickup_4_C”)
+            返回内容 ＝ “狙击快扩[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Sniper_EQ_Pickup_5_C”)
+            返回内容 ＝ “狙击快扩[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.狙击扩容)
+        .如果真 (物品代码 ＝ “BP_DJ_Sniper_E_Pickup_1_C”)
+            返回内容 ＝ “狙击扩容[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Sniper_E_Pickup_2_C”)
+            返回内容 ＝ “狙击扩容[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Sniper_E_Pickup_3_C”)
+            返回内容 ＝ “狙击扩容[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Sniper_E_Pickup_4_C”)
+            返回内容 ＝ “狙击扩容[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_DJ_Sniper_E_Pickup_5_C”)
+            返回内容 ＝ “狙击扩容[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.冲锋消音器)
+        .如果真 (物品代码 ＝ “BP_QK_Mid_Suppressor_Pickup_1_C”)
+            返回内容 ＝ “冲锋消音器[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Mid_Suppressor_Pickup_2_C”)
+            返回内容 ＝ “冲锋消音器[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Mid_Suppressor_Pickup_3_C”)
+            返回内容 ＝ “冲锋消音器[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Mid_Suppressor_Pickup_4_C”)
+            返回内容 ＝ “冲锋消音器[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Mid_Suppressor_Pickup_5_C”)
+            返回内容 ＝ “冲锋消音器[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.步枪消音器)
+        .如果真 (物品代码 ＝ “BP_QK_Large_Suppressor_Pickup_1_C”)
+            返回内容 ＝ “步枪消音器[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Large_Suppressor_Pickup_2_C”)
+            返回内容 ＝ “步枪消音器[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Large_Suppressor_Pickup_3_C”)
+            返回内容 ＝ “步枪消音器[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Large_Suppressor_Pickup_4_C”)
+            返回内容 ＝ “步枪消音器[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Large_Suppressor_Pickup_5_C”)
+            返回内容 ＝ “步枪消音器[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.狙击消音器)
+        .如果真 (物品代码 ＝ “BP_QK_Sniper_Suppressor_Pickup_1_C”)
+            返回内容 ＝ “狙击消音器[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Sniper_Suppressor_Pickup_2_C”)
+            返回内容 ＝ “狙击消音器[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Sniper_Suppressor_Pickup_3_C”)
+            返回内容 ＝ “狙击消音器[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Sniper_Suppressor_Pickup_4_C”)
+            返回内容 ＝ “狙击消音器[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Sniper_Suppressor_Pickup_5_C”)
+            返回内容 ＝ “狙击消音器[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.狙击托腮板)
+        .如果真 (物品代码 ＝ “BP_QT_Sniper_Pickup_1_C”)
+            返回内容 ＝ “狙击托腮板[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QT_Sniper_Pickup_2_C”)
+            返回内容 ＝ “狙击托腮板[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QT_Sniper_Pickup_3_C”)
+            返回内容 ＝ “狙击托腮板[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QT_Sniper_Pickup_4_C”)
+            返回内容 ＝ “狙击托腮板[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QT_Sniper_Pickup_5_C”)
+            返回内容 ＝ “狙击托腮板[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.子弹袋)
+        .如果真 (物品代码 ＝ “BP_ZDD_Sniper_Pickup_1_C”)
+            返回内容 ＝ “子弹袋[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ZDD_Sniper_Pickup_2_C”)
+            返回内容 ＝ “子弹袋[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ZDD_Sniper_Pickup_3_C”)
+            返回内容 ＝ “子弹袋[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ZDD_Sniper_Pickup_4_C”)
+            返回内容 ＝ “子弹袋[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_ZDD_Sniper_Pickup_5_C”)
+            返回内容 ＝ “子弹袋[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.冲锋补偿)
+        .如果真 (物品代码 ＝ “BP_QK_Mid_Compensator_Pickup_1_C”)
+            返回内容 ＝ “冲锋补偿[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Mid_Compensator_Pickup_2_C”)
+            返回内容 ＝ “冲锋补偿[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Mid_Compensator_Pickup_3_C”)
+            返回内容 ＝ “冲锋补偿[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Mid_Compensator_Pickup_4_C”)
+            返回内容 ＝ “冲锋补偿[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Mid_Compensator_Pickup_5_C”)
+            返回内容 ＝ “冲锋补偿[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.步枪补偿)
+        .如果真 (物品代码 ＝ “BP_QK_Large_Compensator_Pickup_1_C”)
+            返回内容 ＝ “步枪补偿[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Large_Compensator_Pickup_2_C”)
+            返回内容 ＝ “步枪补偿[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Large_Compensator_Pickup_3_C”)
+            返回内容 ＝ “步枪补偿[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Large_Compensator_Pickup_4_C”)
+            返回内容 ＝ “步枪补偿[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Large_Compensator_Pickup_5_C”)
+            返回内容 ＝ “步枪补偿[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.狙击补偿)
+        .如果真 (物品代码 ＝ “BP_QK_Sniper_Compensator_Pickup_1_C”)
+            返回内容 ＝ “狙击补偿[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Sniper_Compensator_Pickup_2_C”)
+            返回内容 ＝ “狙击补偿[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Sniper_Compensator_Pickup_3_C”)
+            返回内容 ＝ “狙击补偿[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Sniper_Compensator_Pickup_4_C”)
+            返回内容 ＝ “狙击补偿[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QK_Sniper_Compensator_Pickup_5_C”)
+            返回内容 ＝ “狙击补偿[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.垂直握把)
+        .如果真 (物品代码 ＝ “BP_WB_Vertical_Pickup_1_C”)
+            返回内容 ＝ “垂直握把[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_Vertical_Pickup_2_C”)
+            返回内容 ＝ “垂直握把[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_Vertical_Pickup_3_C”)
+            返回内容 ＝ “垂直握把[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_Vertical_Pickup_4_C”)
+            返回内容 ＝ “垂直握把[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_Vertical_Pickup_5_C”)
+            返回内容 ＝ “垂直握把[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.战术枪托)
+        .如果真 (物品代码 ＝ “BP_QT_A_Pickup_1_C”)
+            返回内容 ＝ “战术枪托[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QT_A_Pickup_2_C”)
+            返回内容 ＝ “战术枪托[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QT_A_Pickup_3_C”)
+            返回内容 ＝ “战术枪托[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QT_A_Pickup_4_C”)
+            返回内容 ＝ “战术枪托[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_QT_A_Pickup_5_C”)
+            返回内容 ＝ “战术枪托[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.直角握把)
+        .如果真 (物品代码 ＝ “BP_WB_Angled_Pickup_1_C”)
+            返回内容 ＝ “直角握把[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_Angled_Pickup_2_C”)
+            返回内容 ＝ “直角握把[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_Angled_Pickup_3_C”)
+            返回内容 ＝ “直角握把[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_Angled_Pickup_4_C”)
+            返回内容 ＝ “直角握把[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_Angled_Pickup_5_C”)
+            返回内容 ＝ “直角握把[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.拇指握把)
+        .如果真 (物品代码 ＝ “BP_WB_ThumbGrip_Pickup_1_C”)
+            返回内容 ＝ “拇指握把[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_ThumbGrip_Pickup_2_C”)
+            返回内容 ＝ “拇指握把[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_ThumbGrip_Pickup_3_C”)
+            返回内容 ＝ “拇指握把[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_ThumbGrip_Pickup_4_C”)
+            返回内容 ＝ “拇指握把[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_ThumbGrip_Pickup_5_C”)
+            返回内容 ＝ “拇指握把[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.半截握把)
+        .如果真 (物品代码 ＝ “BP_WB_HalfGrip_Pickup_1_C”)
+            返回内容 ＝ “半截握把[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_HalfGrip_Pickup_2_C”)
+            返回内容 ＝ “半截握把[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_HalfGrip_Pickup_3_C”)
+            返回内容 ＝ “半截握把[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_HalfGrip_Pickup_4_C”)
+            返回内容 ＝ “半截握把[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_HalfGrip_Pickup_5_C”)
+            返回内容 ＝ “半截握把[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+    .如果真 (地铁.轻型握把)
+        .如果真 (物品代码 ＝ “BP_WB_LightGrip_Pickup_1_C”)
+            返回内容 ＝ “轻型握把[破损]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_LightGrip_Pickup_2_C”)
+            返回内容 ＝ “轻型握把[修复]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_LightGrip_Pickup_3_C”)
+            返回内容 ＝ “轻型握把[完好]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_LightGrip_Pickup_4_C”)
+            返回内容 ＝ “轻型握把[改进]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+        .如果真 (物品代码 ＝ “BP_WB_LightGrip_Pickup_5_C”)
+            返回内容 ＝ “轻型握把[精致]”
+            返回颜色 ＝ IMVEC4TORGBA (数据.配件颜色)
+            返回 (真)
+        .如果真结束
+
+    .如果真结束
+
+.如果真结束
+返回 (假)

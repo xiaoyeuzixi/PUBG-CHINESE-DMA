@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{7e44d4cc-1dc5-478c-9ff7-2375a934bb70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dma">
+      <UniqueIdentifier>{c66e0ffa-c98e-46f9-a501-ad1574f26cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameixx">
+      <UniqueIdentifier>{8973b532-1bcf-4715-951a-1b17386edda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{b8556e9c-7870-493e-919c-bf91352396a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Esp">
+      <UniqueIdentifier>{cfc91974-095f-40c8-a839-c5ccd053b122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physx">
+      <UniqueIdentifier>{7eca0982-2044-4d30-853a-9ee04cbb68c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physx4.1">
+      <UniqueIdentifier>{7dd8fe7f-3a5b-408c-ac1a-01586fd7f846}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dma\dma.ixx">
+      <Filter>dma</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\UObject.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.ixx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\UWorld.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CanvasMap.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\DebugCanvasObject.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Struct.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Engine.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ULevel.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TArray.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FName.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\AActor.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="gameixx\AActorType.ixx">
+      <Filter>gameixx</Filter>
+    </ClCompile>
+    <ClCompile Include="gameixx\AUAECharacter.ixx">
+      <Filter>gameixx</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FString.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ACharacter.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\USkeletalMeshComponent.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\USkinnedMeshComponent.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\USceneComponent.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="bm.ixx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\UPlayer.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\APlayerController.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\APawn.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\AController.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ULocalPlayer.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="gameixx\AUAEPlayerController.ixx">
+      <Filter>gameixx</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\UGameInstance.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\UNetDriver.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\UNetConnection.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\USkeletalMesh.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\APlayerCameraManager.ixx">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="gameixx\ASTExtraWeapon.ixx">
+      <Filter>gameixx</Filter>
+    </ClCompile>
+    <ClCompile Include="gameixx\UWeaponEntity.ixx">
+      <Filter>gameixx</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11_menu.ixx">
+      <Filter>Esp</Filter>
+    </ClCompile>
+    <ClCompile Include="Esp\render.ixx">
+      <Filter>Esp</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\NpScene.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\NpSenceArray.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\NpShape.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\Offsets_PhysX3.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\PhysX3.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\physx3Engine.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\PhysX3Object.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\PxActor.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\PxActorArray.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\PxBase.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\PxConvexMeshGeometry.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\PxHeightFieldGeometry.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\PxRigidActor.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\PxRigidBody.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\PxRigidStatic.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\PxRigiDynamic.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\PxTriangleMeshGeometry.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\Struct_PhysX3.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysX3\physxLocal.ixx">
+      <Filter>Physx</Filter>
+    </ClCompile>
+    <ClCompile Include="NetConfig\kmboxNet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetConfig\my_enc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponTranslation.ixx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemTranslation.ixx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gameixx\ASTExtraVehicleBase.ixx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gameixx\UVehicleCommonComponent.ixx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.ixx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDMA.ixx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputUtils.ixx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Esp\dx11.ixx">
+      <Filter>Esp</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NetConfig\HidTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetConfig\kmboxNet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetConfig\my_enc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\backends\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\backends\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysX-4.1\physx\include\PxPhysicsAPI.h">
+      <Filter>physx4.1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
